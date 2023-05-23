@@ -64,7 +64,7 @@ class LeaguesTableViewController: UITableViewController {
         if let imageURL = response?.result?[indexPath.row].league_logo
         {
             cell.leagueImage.sd_setImage(with: URL(string: imageURL ), placeholderImage: UIImage(named: "Placeholder.png"))
-          //  viewModel.gettingImageWithURL(param: imageURL)
+            viewModel.gettingImageWithURL(param: imageURL)
         }
         else
         {

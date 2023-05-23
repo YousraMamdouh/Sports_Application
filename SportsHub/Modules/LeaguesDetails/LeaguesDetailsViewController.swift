@@ -30,7 +30,7 @@ extension LeaguesDetailsViewController:UITableViewDelegate,UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let middleCell = tableView.dequeueReusableCell(withIdentifier:
-                                                "middleCell", for: indexPath) as! LatestResultCell
+                                                "middleCell", for: indexPath) as! LatestResultTableCell
         return middleCell
     }
     func numberOfSections(in tableView: UITableView) -> Int {

@@ -323,38 +323,32 @@ SWIFT_CLASS("_TtC9SportsHub18HomeViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class UIImageView;
 
-SWIFT_CLASS("_TtC9SportsHub16LatestResultCell")
-@interface LatestResultCell : UICollectionViewCell
+SWIFT_CLASS("_TtC9SportsHub21LatestResultTableCell")
+@interface LatestResultTableCell : UITableViewCell
 - (void)awakeFromNib;
-- (IBAction)time:(id _Nonnull)sender;
-- (IBAction)date:(id _Nonnull)sender;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified score;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified firstTeamImage;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified secondTeamName;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified secondTeamImage;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified firstTeamName;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UICollectionViewLayout;
-
-SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
-@interface LeaguesDetailsViewController : UICollectionViewController
-- (void)viewDidLoad;
-- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UITableView;
-@class UITableViewCell;
+
+SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
+@interface LeaguesDetailsViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface LeaguesDetailsViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+@end
+
 
 SWIFT_CLASS("_TtC9SportsHub26LeaguesTableViewController")
 @interface LeaguesTableViewController : UITableViewController
@@ -383,6 +377,8 @@ SWIFT_CLASS("_TtC9SportsHub13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC9SportsHub23SportCollectionViewCell")
 @interface SportCollectionViewCell : UICollectionViewCell
@@ -416,6 +412,19 @@ SWIFT_CLASS("_TtC9SportsHub18UpComingEventsCell")
 - (IBAction)date:(id _Nonnull)sender;
 - (IBAction)time:(id _Nonnull)sender;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UICollectionViewLayout;
+
+SWIFT_CLASS("_TtC9SportsHub4test")
+@interface test : UICollectionViewController
+- (void)viewDidLoad;
+- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithCollectionViewLayout:(UICollectionViewLayout * _Nonnull)layout OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 

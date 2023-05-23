@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
 options: "5f591a2c2b086a5dd6e0e64c1ccb734ea2d195c183d711d6e89863f94ef8f0a1"
-build_start_time: [1684872090, 808661000]
-build_end_time: [1684872093, 529445000]
+build_start_time: [1684873078, 688755000]
+build_end_time: [1684873080, 567164000]
 inputs:
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/AnimationContainer.swift": [1684748600, 625378858]
   ? "/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/CompositionLayer.swift"

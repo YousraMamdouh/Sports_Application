@@ -113,14 +113,14 @@ class test: UICollectionViewController {
     
         let upperCell = collectionView.dequeueReusableCell(withReuseIdentifier:
                                                 "upperCell", for: indexPath) as! UpComingEventsCell
-        let middleCell = collectionView.dequeueReusableCell(withReuseIdentifier:
-                                                "middleCell", for: indexPath) as! LatestResultCell
+//        let middleCell = collectionView.dequeueReusableCell(withReuseIdentifier:
+//                                                "middleCell", for: indexPath) as! LatestResultCell
     
         switch indexPath.section{
         case 0:
             return upperCell
-        case 1:
-            return middleCell
+//        case 1:
+//            return middleCell
         default:
             return upperCell
         }
