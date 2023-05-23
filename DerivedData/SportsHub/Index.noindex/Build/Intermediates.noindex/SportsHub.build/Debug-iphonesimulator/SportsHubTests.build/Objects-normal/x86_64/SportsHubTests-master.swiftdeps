@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "de63a1dcb8e20136cada58f805685ea13dcbcf71737c7ff3bc3b98e4bae96b04"
+build_start_time: [1684846802, 387348000]
+build_end_time: [1684846817, 419369000]
+inputs:
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHubTests/SportsHubTests.swift": [1684606678, 46993026]

@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
+options: "28070ef9debe166f5332835798d41077c64fc7214cbd70b31a0d971a54006613"
+build_start_time: [1684853118, 787788000]
+build_end_time: [1684853120, 765834000]
+inputs:
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/AppDelegate.swift": [1684606675, 329949319]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Leagues.swift": [1684845236, 654232979]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/SportDTO.swift": [1684748600, 756324928]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Favorites/View/FavoritesViewController.swift": [1684748600, 757488343]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Home/View/HomeViewController.swift": [1684853102, 682802121]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Home/View/SportCollectionViewCell.swift": [1684786579, 535080577]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Legues/View/LeaguesTableViewController.swift": [1684853102, 684364839]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/SceneDelegate.swift": [1684606675, 342079750]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift": [1684845236, 667888258]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/NetworkConstant.swift": [1684845236, 668717376]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/View/TableViewCell.swift": [1684853102, 687368324]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/ViewModel/ViewModel.swift": [1684853102, 691186110]
