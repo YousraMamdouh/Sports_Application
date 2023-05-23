@@ -16,27 +16,29 @@
                 <rect key="frame" x="0.0" y="0.0" width="374" height="112"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Placeholder.png" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-aH-Ph2">
-                        <rect key="frame" x="20" y="14" width="86" height="84"/>
-                    </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVD-Tj-dWt">
-                        <rect key="frame" x="114" y="36" width="240" height="40"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVD-Tj-dWt">
+                        <rect key="frame" x="146" y="24" width="208" height="53"/>
                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                         <color key="textColor" red="0.28051486609999998" green="0.74907410139999997" blue="0.74399965999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-aH-Ph2">
+                        <rect key="frame" x="20" y="10" width="92" height="92"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="92" id="UcU-pv-8hN"/>
+                            <constraint firstAttribute="width" constant="92" id="rOW-Oy-HFH"/>
+                        </constraints>
+                    </imageView>
                 </subviews>
                 <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <color key="tintColor" red="0.077327527009999994" green="1" blue="0.90564722929999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 <constraints>
-                    <constraint firstItem="d7X-aH-Ph2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="38" id="5hQ-po-tD4"/>
-                    <constraint firstItem="d7X-aH-Ph2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="Hev-Le-Jq7"/>
-                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="41" id="Mhz-WU-PFE"/>
-                    <constraint firstAttribute="bottom" secondItem="d7X-aH-Ph2" secondAttribute="bottom" constant="14" id="a7Z-fJ-guJ"/>
-                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="214" id="dBv-yt-yV7"/>
-                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="leading" secondItem="d7X-aH-Ph2" secondAttribute="trailing" constant="40" id="eqH-1o-GU1"/>
-                    <constraint firstAttribute="trailing" secondItem="PVD-Tj-dWt" secondAttribute="trailing" constant="20" symbolic="YES" id="jM0-r4-8fk"/>
-                    <constraint firstAttribute="bottom" secondItem="PVD-Tj-dWt" secondAttribute="bottom" constant="47" id="xLc-kC-GC7"/>
+                    <constraint firstItem="d7X-aH-Ph2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="BSP-u0-PRp"/>
+                    <constraint firstAttribute="bottom" secondItem="PVD-Tj-dWt" secondAttribute="bottom" constant="35" id="K8J-h3-Tjr"/>
+                    <constraint firstItem="d7X-aH-Ph2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="O06-zL-su2"/>
+                    <constraint firstAttribute="trailing" secondItem="PVD-Tj-dWt" secondAttribute="trailing" constant="20" symbolic="YES" id="RLb-u0-sJ8"/>
+                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="146" id="d37-5T-Y20"/>
+                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="iyN-7Q-OBG"/>
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
@@ -50,7 +52,4 @@
             <point key="canvasLocation" x="138.93129770992365" y="12.67605633802817"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="Placeholder.png" width="681" height="528"/>
-    </resources>
 </document>

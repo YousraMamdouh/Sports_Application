@@ -30,14 +30,29 @@ class TableViewCell: UITableViewCell {
 //                                 height: bounds.maxY)
 //
 //           layer.addSublayer(border)
-        backView.layer.borderColor = UIColor.label.cgColor
-        backView.layer.borderWidth = 1
-        backView.layer.cornerRadius = 10
-        leagueImage.layer.cornerRadius = 20
-      leagueImage.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-        leagueLabel.sizeToFit()
+   
+  // setRounded(image: leagueImage)
+     
+//      leagueImage.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+//        leagueLabel.sizeToFit()
+        
+        setCellStyle(view: backView)
+        setImageStyle(image: leagueImage)
     }
-
+    func setImageStyle(image:UIImageView) {
+       // image.layer.borderWidth = 1
+        image.layer.masksToBounds = false
+       // image.layer.borderColor = UIColor.black.cgColor
+        image.layer.cornerRadius = leagueImage.frame.height/2
+        image.clipsToBounds = true
+     }
+    func setCellStyle(view:UIView)
+    {
+      view.layer.borderColor = UIColor.label.cgColor
+     view.layer.borderWidth = 1
+       view.layer.cornerRadius = 10
+    }
+    
     @IBOutlet weak var backView: UIView!
     
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -45,5 +60,6 @@ class TableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
     
 }

@@ -16,5 +16,6 @@ target 'SportsHub' do
     # Pods for testing
   end
 pod 'lottie-ios'
+pod 'SDWebImage', '~> 5.0'
 
 end

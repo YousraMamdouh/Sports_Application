@@ -8,7 +8,7 @@
 import UIKit
 import Lottie
 
-class ViewController: UIViewController, UICollectionViewDelegate , UICollectionViewDataSource {
+class HomeViewController: UIViewController, UICollectionViewDelegate , UICollectionViewDataSource {
 //    let football = SportDTO(name: "Football", image: "football.jpg")
 //    let basketball = SportDTO(name: "Basketball", image: "basketball.png")
 //    let cricket = SportDTO(name: "Cricket", image: "cricket.png")

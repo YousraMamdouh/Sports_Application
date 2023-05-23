@@ -7,18 +7,10 @@
 
 import UIKit
 
-class LeaguesViewModel{
+class ViewModel{
 
  
-    
-    func numberOfSection()->Int{
-        1
-    }
-    
-    func numberOfRows(in section: Int)-> Int{
-        // print("bosili 3dad: \(getLeagues()?.result?.count ?? 0)")
-        return 10
-    }
+
     func getLeagues(param:String,complitionHandler: @escaping (FootballLeagues?)-> Void)
     {
         APICaller.getLeagues(param: param) {
@@ -31,7 +23,7 @@ class LeaguesViewModel{
   
     }
     
-    func sentTheParamToTheAPI(param:String)
+    func gettingImageWithURL(param:String)
     {
         
     }

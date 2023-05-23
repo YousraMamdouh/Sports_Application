@@ -6,16 +6,18 @@
 //
 
 import UIKit
+import SDWebImage
 
 class LeaguesTableViewController: UITableViewController {
 
-    var viewModel : LeaguesViewModel = LeaguesViewModel()
+    var viewModel : ViewModel = ViewModel()
     var response: FootballLeagues?
     var gameName:String?
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-        print("\(gameName)")
+      
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -45,12 +47,12 @@ class LeaguesTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return response?.result?.count ?? 0
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return viewModel.numberOfRows(in: section)
+        return response?.result?.count ?? 0
     }
 
     
@@ -58,13 +60,29 @@ class LeaguesTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
         // Configure the cell...
         cell.leagueLabel.text = response?.result?[indexPath.row].league_name
+        print("look\(response?.result?[indexPath.row].league_name)")
+        if let imageURL = response?.result?[indexPath.row].league_logo
+        {
+            cell.leagueImage.sd_setImage(with: URL(string: imageURL ), placeholderImage: UIImage(named: "Placeholder.png"))
+          //  viewModel.gettingImageWithURL(param: imageURL)
+        }
+        else
+        {
+            cell.leagueImage.image = UIImage(named: "Placeholder.png")
+        }
+     
 
         // Configure the cell...
 
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 140
+    }
+    
 
+    
     
 }
 
