@@ -37,18 +37,32 @@ class ViewController: UIViewController, UICollectionViewDelegate , UICollectionV
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+       
+    
         switch(indexPath.row)
         {
         case 0:
-            print("football")
-            let vC = self.storyboard?.instantiateViewController(identifier: "FootBallLeaguesTableViewController") as! FootBallLeaguesTableViewController
-             
-              self.navigationController?.pushViewController(vC, animated: true)
+        
+     navigateToTheLeagues(str: "football")
         case 1:
-            print("")
+      
+            navigateToTheLeagues(str: "basketball")
+        case 2:
+          
+            navigateToTheLeagues(str: "cricket")
+        case 3:
+        navigateToTheLeagues(str: "tennis")
+     
         default:
             print("no one")
         }
+    }
+    
+    func navigateToTheLeagues(str:String)
+    {
+        let vC = self.storyboard?.instantiateViewController(identifier: "LeaguesTableViewController") as! LeaguesTableViewController
+        vC.gameName = str
+          self.navigationController?.pushViewController(vC, animated: true)
     }
 
     @IBOutlet weak var sportsCollectionView: UICollectionView!

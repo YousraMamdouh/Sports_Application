@@ -30,8 +30,16 @@ class TableViewCell: UITableViewCell {
 //                                 height: bounds.maxY)
 //
 //           layer.addSublayer(border)
+        backView.layer.borderColor = UIColor.label.cgColor
+        backView.layer.borderWidth = 1
+        backView.layer.cornerRadius = 10
+        leagueImage.layer.cornerRadius = 20
+      leagueImage.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
+        leagueLabel.sizeToFit()
     }
 
+    @IBOutlet weak var backView: UIView!
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
