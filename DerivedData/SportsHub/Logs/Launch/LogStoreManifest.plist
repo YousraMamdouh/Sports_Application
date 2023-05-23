@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>176B8B67-F055-41F2-90BD-46CE3A09E6B6</key>
+		<key>68AF8FB9-C9A3-44F8-B167-A3E308D84F02</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>CA6FF5B7-67D5-4B72-A897-508B60FD1635</string>
+			<string>8DF43E63-2EC7-4FEF-9B95-AF6AE9244489</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,52 +22,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-SportsHub-2023.05.23_13-19-49--0700.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>SportsHub project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SportsHub</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run SportsHub</string>
-			<key>timeStartedRecording</key>
-			<real>706565989.98101401</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run SportsHub</string>
-			<key>uniqueIdentifier</key>
-			<string>176B8B67-F055-41F2-90BD-46CE3A09E6B6</string>
-		</dict>
-		<key>9C0D9303-A56E-40FE-96AA-B1602207CE4E</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>D6F97F64-F3E0-4A01-B569-6E80BA26D011</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-SportsHub-2023.05.23_13-17-27--0700.xcresult</string>
+			<string>Run-SportsHub-2023.05.23_14-55-40--0700.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -88,18 +43,108 @@
 			<key>signature</key>
 			<string>Run SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>706565847.46364498</real>
+			<real>706571740.38122201</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>9C0D9303-A56E-40FE-96AA-B1602207CE4E</string>
+			<string>68AF8FB9-C9A3-44F8-B167-A3E308D84F02</string>
 		</dict>
-		<key>DEE06BE2-94FE-438C-8374-DBD1934F55B5</key>
+		<key>8DABA255-C733-432C-88BC-980C62E97673</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>9396AECA-79B5-410B-9D48-872D82DC67FE</string>
+			<string>EB198135-B03E-484A-A00A-5D00A4889E12</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-SportsHub-2023.05.23_14-58-31--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SportsHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SportsHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SportsHub</string>
+			<key>timeStartedRecording</key>
+			<real>706571911.18608499</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run SportsHub</string>
+			<key>uniqueIdentifier</key>
+			<string>8DABA255-C733-432C-88BC-980C62E97673</string>
+		</dict>
+		<key>B965060A-207E-4B00-A2A1-49C9458DB595</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>CADD3271-802E-4E04-B742-83F766193242</string>
+			<key>auxiliaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>className</key>
+			<string>IDESchemeActionsInvocationRecord</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
+			<key>fileName</key>
+			<string>Run-SportsHub-2023.05.23_14-55-03--0700.xcresult</string>
+			<key>hasAuxiliaryLog</key>
+			<true/>
+			<key>hasConsoleLog</key>
+			<true/>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SportsHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SportsHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run SportsHub</string>
+			<key>timeStartedRecording</key>
+			<real>706571703.76023901</real>
+			<key>timeStoppedRecording</key>
+			<real>0.0</real>
+			<key>title</key>
+			<string>Run SportsHub</string>
+			<key>uniqueIdentifier</key>
+			<string>B965060A-207E-4B00-A2A1-49C9458DB595</string>
+		</dict>
+		<key>E5FD5A3D-0FC8-49DA-BB11-89C7938C3BA9</key>
+		<dict>
+			<key>auxiliaryLogUniqueIdentifier</key>
+			<string>97772AC0-2AB7-45BD-B17A-CFEF1A6047A2</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -112,7 +157,7 @@
 			<key>domainType</key>
 			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
 			<key>fileName</key>
-			<string>Run-SportsHub-2023.05.23_13-19-16--0700.xcresult</string>
+			<string>Run-SportsHub-2023.05.23_13-23-33--0700.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
 			<key>hasConsoleLog</key>
@@ -133,103 +178,13 @@
 			<key>signature</key>
 			<string>Run SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>706565956.18145394</real>
+			<real>706566213.23601496</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Run SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>DEE06BE2-94FE-438C-8374-DBD1934F55B5</string>
-		</dict>
-		<key>EB4782B6-AFB5-4AA5-9BBC-F30853194D56</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>7397C6E4-9509-46D7-A75B-533BF1986AA7</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-SportsHub-2023.05.23_13-14-44--0700.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>SportsHub project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SportsHub</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run SportsHub</string>
-			<key>timeStartedRecording</key>
-			<real>706565684.07361805</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run SportsHub</string>
-			<key>uniqueIdentifier</key>
-			<string>EB4782B6-AFB5-4AA5-9BBC-F30853194D56</string>
-		</dict>
-		<key>FB7DC5B6-F86E-4B15-88E3-2C6BA3E35826</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>E9BB9F13-0DBF-4E72-9DB3-4A31FE41AF92</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.IDE.LaunchSchemeAction</string>
-			<key>fileName</key>
-			<string>Run-SportsHub-2023.05.23_13-19-37--0700.xcresult</string>
-			<key>hasAuxiliaryLog</key>
-			<true/>
-			<key>hasConsoleLog</key>
-			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>SportsHub project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SportsHub</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Run SportsHub</string>
-			<key>timeStartedRecording</key>
-			<real>706565977.907336</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Run SportsHub</string>
-			<key>uniqueIdentifier</key>
-			<string>FB7DC5B6-F86E-4B15-88E3-2C6BA3E35826</string>
+			<string>E5FD5A3D-0FC8-49DA-BB11-89C7938C3BA9</string>
 		</dict>
 	</dict>
 </dict>
