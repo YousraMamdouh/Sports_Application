@@ -4,11 +4,11 @@
 <array>
 	<string>Lottie</string>
 	<string>QuartzCore</string>
-	<string>XCTest</string>
+	<string>AppKit</string>
 	<string>CoreData</string>
 	<string>CoreGraphics</string>
-	<string>AppKit</string>
 	<string>CoreText</string>
+	<string>XCTest</string>
 	<string>SportsHub</string>
 	<string>UIKit</string>
 	<string>SDWebImage</string>
