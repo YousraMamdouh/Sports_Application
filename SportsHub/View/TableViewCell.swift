@@ -13,28 +13,6 @@ class TableViewCell: UITableViewCell {
     @IBOutlet weak var leagueLabel: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
-//        let border = CALayer()
-//
-//           let borderWidth: CGFloat = 1
-//
-//        let myCustomColor = UIColor(red: 7.2, green: 19.1, blue: 19.0, alpha: 1.0)
-//        border.backgroundColor = myCustomColor.cgColor
-//           // Set the color your want
-//
-//
-//           // Create a rect only on the right of the view
-//           border.frame = CGRect(x: bounds.maxX - borderWidth,
-//                                 y: 0,
-//                                 width: borderWidth,
-//                                 height: bounds.maxY)
-//
-//           layer.addSublayer(border)
-   
-  // setRounded(image: leagueImage)
-     
-//      leagueImage.frame = CGRect(x: 0, y: 0, width: 200, height: 200)
-//        leagueLabel.sizeToFit()
         
         setCellStyle(view: backView)
         setImageStyle(image: leagueImage)

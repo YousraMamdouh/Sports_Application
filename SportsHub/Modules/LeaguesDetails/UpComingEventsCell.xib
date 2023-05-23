@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="UpComingEventsCell" customModule="SportsHub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="449" height="171"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="449" height="171"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="cricket.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Lh-M7-GeH">
+                        <rect key="frame" x="20" y="39" width="92" height="92"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="92" id="6o3-qX-sAK"/>
+                            <constraint firstAttribute="height" constant="92" id="wN4-Ud-eg3"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="basketball.png" translatesAutoresizingMaskIntoConstraints="NO" id="67F-wV-KQu">
+                        <rect key="frame" x="337" y="39" width="92" height="92"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="92" id="OJd-k7-Rxr"/>
+                            <constraint firstAttribute="width" constant="92" id="vFV-1N-WYT"/>
+                        </constraints>
+                    </imageView>
+                    <datePicker contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" translatesAutoresizingMaskIntoConstraints="NO" id="8OS-VQ-kFn">
+                        <rect key="frame" x="159" y="56" width="131" height="37"/>
+                        <connections>
+                            <action selector="date:" destination="gTV-IL-0wX" eventType="valueChanged" id="Aeh-1b-uoS"/>
+                        </connections>
+                    </datePicker>
+                    <datePicker contentMode="scaleToFill" misplaced="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="xUK-fn-rWW">
+                        <rect key="frame" x="159" y="97" width="131" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="ztv-TW-PCO"/>
+                        </constraints>
+                        <connections>
+                            <action selector="time:" destination="gTV-IL-0wX" eventType="valueChanged" id="wdP-v5-FM2"/>
+                        </connections>
+                    </datePicker>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUW-jN-z8L">
+                        <rect key="frame" x="116" y="11" width="213" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="2Lh-M7-GeH" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="14" id="91j-OJ-UYT"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="cUW-jN-z8L" secondAttribute="top" constant="49" id="Bmz-68-iLh"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="8OS-VQ-kFn" secondAttribute="top" constant="25" id="Nvb-eM-YMa"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="2Lh-M7-GeH" secondAttribute="top" constant="31" id="Ock-o0-HhQ"/>
+                <constraint firstItem="xUK-fn-rWW" firstAttribute="leading" secondItem="2Lh-M7-GeH" secondAttribute="trailing" constant="70" id="Ogb-fJ-G8v"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="67F-wV-KQu" secondAttribute="top" constant="29" id="Pti-eJ-5DG"/>
+                <constraint firstItem="cUW-jN-z8L" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" constant="283.66666666666669" id="W0u-i3-R3t"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="cUW-jN-z8L" secondAttribute="trailing" constant="124" id="ZaX-TM-LeS"/>
+                <constraint firstItem="xUK-fn-rWW" firstAttribute="top" secondItem="8OS-VQ-kFn" secondAttribute="bottom" constant="7" id="cPU-gh-5cD"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="xUK-fn-rWW" secondAttribute="bottom" constant="31" id="dyF-5b-XaA"/>
+                <constraint firstItem="67F-wV-KQu" firstAttribute="leading" secondItem="8OS-VQ-kFn" secondAttribute="trailing" constant="38" id="gbd-0m-HUa"/>
+                <constraint firstItem="67F-wV-KQu" firstAttribute="leading" secondItem="xUK-fn-rWW" secondAttribute="trailing" constant="39" id="kOa-cd-fA9"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="67F-wV-KQu" secondAttribute="trailing" constant="11" id="sjS-ha-t5l"/>
+                <constraint firstItem="8OS-VQ-kFn" firstAttribute="leading" secondItem="2Lh-M7-GeH" secondAttribute="trailing" constant="71" id="uTt-a6-BHz"/>
+            </constraints>
+            <size key="customSize" width="449" height="171"/>
+            <connections>
+                <outlet property="eventName" destination="cUW-jN-z8L" id="KUa-SH-ufT"/>
+                <outlet property="firstTeamImage" destination="2Lh-M7-GeH" id="BIw-pN-q8U"/>
+                <outlet property="secondTeamImage" destination="67F-wV-KQu" id="NUt-5k-jQB"/>
+            </connections>
+            <point key="canvasLocation" x="247" y="12"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="basketball.png" width="236" height="214"/>
+        <image name="cricket.png" width="360" height="360"/>
+    </resources>
+</document>
