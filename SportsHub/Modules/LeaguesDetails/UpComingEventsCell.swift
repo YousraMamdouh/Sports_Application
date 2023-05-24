@@ -14,14 +14,14 @@ class UpComingEventsCell: UICollectionViewCell {
         // Initialization code
         contentView.translatesAutoresizingMaskIntoConstraints = false
     }
-
+    @IBOutlet weak var timeLabel: NSLayoutConstraint!
+    
+    @IBOutlet weak var dateLabel: UILabel!
+    
     @IBOutlet weak var firstTeamImage: UIImageView!
     @IBOutlet weak var secondTeamImage: UIImageView!
     @IBOutlet weak var eventName: UILabel!
-    @IBAction func date(_ sender: Any) {
-    }
-    @IBAction func time(_ sender: Any) {
-    }
+
 
 }
 

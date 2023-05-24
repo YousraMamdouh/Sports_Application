@@ -20,4 +20,12 @@ class LatestResultTableCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    @IBOutlet weak var timeLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var secondTeamName: UILabel!
+    @IBOutlet weak var secondTeamImage: UIImageView!
+
+    @IBOutlet weak var firstTeamImage: UIImageView!
+    @IBOutlet weak var firstTeamName: UILabel!
+    @IBOutlet weak var score: UILabel!
 }

@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>14458EE1-A00B-40D9-8E4F-35AF44C2E4E2</key>
+		<key>AAF4D898-A38C-46CD-8854-4FFACAEA09C3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>14458EE1-A00B-40D9-8E4F-35AF44C2E4E2.xcactivitylog</string>
+			<string>AAF4D898-A38C-46CD-8854-4FFACAEA09C3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>706565853.621369</real>
+			<real>706617360.23082304</real>
 			<key>timeStoppedRecording</key>
-			<real>706565857.62894595</real>
+			<real>706617363.53475404</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>14458EE1-A00B-40D9-8E4F-35AF44C2E4E2</string>
+			<string>AAF4D898-A38C-46CD-8854-4FFACAEA09C3</string>
 		</dict>
-		<key>A4E3BF3D-103C-44F9-8CF7-F2D631859E7C</key>
+		<key>F4A3225C-3917-4D65-BDA5-B056C129AA0A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>A4E3BF3D-103C-44F9-8CF7-F2D631859E7C.xcactivitylog</string>
+			<string>F4A3225C-3917-4D65-BDA5-B056C129AA0A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>706565770.54820597</real>
+			<real>706614820.77324796</real>
 			<key>timeStoppedRecording</key>
-			<real>706565776.57962596</real>
+			<real>706614824.72863495</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>A4E3BF3D-103C-44F9-8CF7-F2D631859E7C</string>
+			<string>F4A3225C-3917-4D65-BDA5-B056C129AA0A</string>
 		</dict>
 	</dict>
 </dict>

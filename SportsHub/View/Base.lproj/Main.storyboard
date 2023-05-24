@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sUJ-om-EvL">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jQx-7q-nH2">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
@@ -142,22 +142,65 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RpY-yH-LE2">
-                                <rect key="frame" x="0.0" y="260" width="393" height="248"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="RpY-yH-LE2">
+                                <rect key="frame" x="-8" y="308.66666666666669" width="393" height="317.00000000000006"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="yB3-Ms-Db6">
+                                <rect key="frame" x="0.0" y="87.333333333333314" width="393" height="201"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="201" id="D6e-U8-5B5"/>
+                                    <constraint firstAttribute="height" constant="201" id="tUu-iD-JfD"/>
+                                    <constraint firstAttribute="width" constant="393" id="zwz-II-qu8"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="l57-xx-F9B">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upcoming Events" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zon-3j-hMR">
+                                <rect key="frame" x="8" y="67" width="377" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latest Results" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qJc-Uu-l7g">
+                                <rect key="frame" x="0.0" y="288.33333333333331" width="393" height="20.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Dch-13-UH5"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qJc-Uu-l7g" firstAttribute="leading" secondItem="Dch-13-UH5" secondAttribute="leading" id="4pl-3t-AWe"/>
+                            <constraint firstItem="RpY-yH-LE2" firstAttribute="leading" secondItem="KaX-yg-JCD" secondAttribute="leadingMargin" constant="-24" id="5CV-wl-4Ga"/>
+                            <constraint firstItem="Dch-13-UH5" firstAttribute="trailing" secondItem="qJc-Uu-l7g" secondAttribute="trailing" id="5Eo-uD-UPm"/>
+                            <constraint firstItem="yB3-Ms-Db6" firstAttribute="leading" secondItem="KaX-yg-JCD" secondAttribute="leading" id="71A-Fc-sSd"/>
+                            <constraint firstItem="RpY-yH-LE2" firstAttribute="trailing" secondItem="Zon-3j-hMR" secondAttribute="trailing" id="HXF-Bk-a7F"/>
+                            <constraint firstItem="Zon-3j-hMR" firstAttribute="top" secondItem="Dch-13-UH5" secondAttribute="top" constant="8" id="MDA-c7-sf4"/>
+                            <constraint firstItem="Dch-13-UH5" firstAttribute="trailing" secondItem="Zon-3j-hMR" secondAttribute="trailing" constant="8" id="Rwc-d1-tgW"/>
+                            <constraint firstItem="yB3-Ms-Db6" firstAttribute="top" secondItem="Zon-3j-hMR" secondAttribute="bottom" id="YYb-uV-dL1"/>
+                            <constraint firstAttribute="trailing" secondItem="yB3-Ms-Db6" secondAttribute="trailing" id="aFb-ga-VG8"/>
+                            <constraint firstItem="Zon-3j-hMR" firstAttribute="leading" secondItem="Dch-13-UH5" secondAttribute="leading" constant="8" id="afC-P6-gPl"/>
+                            <constraint firstItem="Dch-13-UH5" firstAttribute="bottom" secondItem="RpY-yH-LE2" secondAttribute="bottom" constant="192.33333333333326" id="kK8-ut-qwY"/>
+                            <constraint firstItem="RpY-yH-LE2" firstAttribute="top" secondItem="qJc-Uu-l7g" secondAttribute="bottom" id="or1-Xq-lW0"/>
+                            <constraint firstItem="qJc-Uu-l7g" firstAttribute="top" secondItem="yB3-Ms-Db6" secondAttribute="bottom" id="yxs-cK-bI9"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="tableView" destination="RpY-yH-LE2" id="NmI-0M-djg"/>
+                        <outlet property="topCollectionView" destination="yB3-Ms-Db6" id="qg3-Vb-uKT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vKj-vG-6E1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2436" y="701"/>
+            <point key="canvasLocation" x="-2437.4045801526718" y="700.70422535211276"/>
         </scene>
         <!--Test-->
         <scene sceneID="Fu1-Za-V8o">

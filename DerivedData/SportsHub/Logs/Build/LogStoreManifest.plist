@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>8DF43E63-2EC7-4FEF-9B95-AF6AE9244489</key>
+		<key>314FAC57-DFED-422A-9929-7DE0B1C22D8A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>8DF43E63-2EC7-4FEF-9B95-AF6AE9244489.xcactivitylog</string>
+			<string>314FAC57-DFED-422A-9929-7DE0B1C22D8A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Build SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>706571740.38158596</real>
+			<real>706617514.71562898</real>
 			<key>timeStoppedRecording</key>
-			<real>706571743.16806805</real>
+			<real>706617518.66677105</real>
 			<key>title</key>
 			<string>Build SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>8DF43E63-2EC7-4FEF-9B95-AF6AE9244489</string>
+			<string>314FAC57-DFED-422A-9929-7DE0B1C22D8A</string>
 		</dict>
-		<key>97772AC0-2AB7-45BD-B17A-CFEF1A6047A2</key>
+		<key>36EFC975-A201-4DEF-87D7-6F1BD2893A11</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,13 +49,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>97772AC0-2AB7-45BD-B17A-CFEF1A6047A2.xcactivitylog</string>
+			<string>36EFC975-A201-4DEF-87D7-6F1BD2893A11.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>E</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>SportsHub project</string>
@@ -64,17 +64,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Build SportsHub</string>
+			<string>Clean SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>706566213.23658895</real>
+			<real>706617700.27427697</real>
 			<key>timeStoppedRecording</key>
-			<real>706566213.85793805</real>
+			<real>706617700.94305396</real>
 			<key>title</key>
-			<string>Build SportsHub</string>
+			<string>Clean SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>97772AC0-2AB7-45BD-B17A-CFEF1A6047A2</string>
+			<string>36EFC975-A201-4DEF-87D7-6F1BD2893A11</string>
 		</dict>
-		<key>CADD3271-802E-4E04-B742-83F766193242</key>
+		<key>6F0EFF5A-194D-4D41-B21B-EE64B08A6DBD</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,41 +83,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>CADD3271-802E-4E04-B742-83F766193242.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>SportsHub project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SportsHub</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build SportsHub</string>
-			<key>timeStartedRecording</key>
-			<real>706571703.76057398</real>
-			<key>timeStoppedRecording</key>
-			<real>706571719.17916</real>
-			<key>title</key>
-			<string>Build SportsHub</string>
-			<key>uniqueIdentifier</key>
-			<string>CADD3271-802E-4E04-B742-83F766193242</string>
-		</dict>
-		<key>EB198135-B03E-484A-A00A-5D00A4889E12</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>EB198135-B03E-484A-A00A-5D00A4889E12.xcactivitylog</string>
+			<string>6F0EFF5A-194D-4D41-B21B-EE64B08A6DBD.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -134,13 +100,47 @@
 			<key>signature</key>
 			<string>Build SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>706571911.18632805</real>
+			<real>706617961.68053997</real>
 			<key>timeStoppedRecording</key>
-			<real>706571930.62643003</real>
+			<real>706617983.01609099</real>
 			<key>title</key>
 			<string>Build SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>EB198135-B03E-484A-A00A-5D00A4889E12</string>
+			<string>6F0EFF5A-194D-4D41-B21B-EE64B08A6DBD</string>
+		</dict>
+		<key>E767C863-6406-4749-B4CA-14DC08B191A8</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E767C863-6406-4749-B4CA-14DC08B191A8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SportsHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SportsHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SportsHub</string>
+			<key>timeStartedRecording</key>
+			<real>706616642.38954699</real>
+			<key>timeStoppedRecording</key>
+			<real>706616645.92614198</real>
+			<key>title</key>
+			<string>Build SportsHub</string>
+			<key>uniqueIdentifier</key>
+			<string>E767C863-6406-4749-B4CA-14DC08B191A8</string>
 		</dict>
 	</dict>
 </dict>
