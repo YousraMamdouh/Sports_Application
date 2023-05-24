@@ -1,5 +1,5 @@
 //
-//  LatestResultTableCell.swift
+//  TableViewCell.swift
 //  SportsHub
 //
 //  Created by Yousra Mamdouh Ali on 24/05/2023.

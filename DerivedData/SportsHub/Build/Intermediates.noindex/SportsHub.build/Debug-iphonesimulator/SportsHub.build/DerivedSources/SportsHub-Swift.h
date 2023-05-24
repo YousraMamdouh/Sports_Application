@@ -323,20 +323,11 @@ SWIFT_CLASS("_TtC9SportsHub18HomeViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class UIImageView;
 
 SWIFT_CLASS("_TtC9SportsHub21LatestResultTableCell")
 @interface LatestResultTableCell : UITableViewCell
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified secondTeamName;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified secondTeamImage;
-- (IBAction)time:(id _Nonnull)sender;
-- (IBAction)date:(id _Nonnull)sender;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified firstTeamImage;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified firstTeamName;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified score;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -352,14 +343,6 @@ SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-@interface LeaguesDetailsViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
 @class UICollectionViewLayout;
 
 @interface LeaguesDetailsViewController (SWIFT_EXTENSION(SportsHub)) <UICollectionViewDataSource, UICollectionViewDelegateFlowLayout>
@@ -367,6 +350,14 @@ SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+@end
+
+
+@interface LeaguesDetailsViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -397,6 +388,8 @@ SWIFT_CLASS("_TtC9SportsHub13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC9SportsHub23SportCollectionViewCell")
 @interface SportCollectionViewCell : UICollectionViewCell

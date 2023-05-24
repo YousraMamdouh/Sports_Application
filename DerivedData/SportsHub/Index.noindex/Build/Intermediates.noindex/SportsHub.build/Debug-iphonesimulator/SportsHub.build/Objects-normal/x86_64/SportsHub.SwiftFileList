@@ -1,4 +1,3 @@
-/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/LatestResultTableCell.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/LeaguesDetailsViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Home/View/HomeViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift
@@ -11,6 +10,7 @@
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Favorites/View/FavoritesViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/NetworkConstant.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/UpComingEventsCell.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/LatestResultTableCell.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Legues/View/LeaguesTableViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/SceneDelegate.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Home/View/SportCollectionViewCell.swift
