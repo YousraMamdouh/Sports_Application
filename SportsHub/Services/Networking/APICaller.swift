@@ -78,7 +78,7 @@ class APICaller {
   
   static func getLatestEvents(sportName:String,leagueId:Int,complitionHandler: @escaping (Events)-> Void)
     {
-        print("aslllllan?")
+       
         
             let urlString:String = Network.shared.getLatestEvents(sportName: sportName, leagueId: leagueId)
             guard let url = URL(string:urlString ) else
@@ -97,10 +97,7 @@ class APICaller {
                           do{
                               let result = try JSONDecoder().decode(Events.self, from: data)
                               //print(result.result?[3].league_name ?? "No Title")
-                              for e in result.result!
-                              {
-                                  print("resulyyyyyy:\(e.event_final_result)")
-                              }
+                      
                               complitionHandler(result)
                           }
                           catch let error{

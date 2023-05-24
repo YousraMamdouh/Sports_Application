@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
 options: "28070ef9debe166f5332835798d41077c64fc7214cbd70b31a0d971a54006613"
-build_start_time: [1684953398, 891130000]
-build_end_time: [1684953402, 24012000]
+build_start_time: [1684955965, 80491000]
+build_end_time: [1684955966, 666532000]
 inputs:
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/AppDelegate.swift": [1684606675, 329949319]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Events.swift": [1684953160, 659054407]
@@ -17,7 +17,7 @@ inputs:
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/test.swift": [1684879107, 780157766]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Legues/View/LeaguesTableViewController.swift": [1684953215, 948737903]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/SceneDelegate.swift": [1684606675, 342079750]
-  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift": [1684953292, 262993304]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift": [1684955921, 134750560]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/Network.swift": [1684952180, 613573307]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/View/TableViewCell.swift": [1684879107, 782778711]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/ViewModel/ViewModel.swift": [1684953336, 282602733]
