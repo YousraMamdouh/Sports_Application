@@ -1,0 +1,10 @@
+Target dependency graph (4 targets)
+SDWebImage in Pods, no dependencies
+lottie-ios in Pods, no dependencies
+Pods-SportsHub in Pods, depends on:
+SDWebImage in Pods (explicit)
+lottie-ios in Pods (explicit)
+SportsHub in SportsHub, depends on:
+Pods-SportsHub in Pods (implicit dependency via file 'Pods_SportsHub.framework' in build phase 'Link Binary')
+lottie-ios in Pods (implicit dependency via options '-framework Lottie' in build setting 'OTHER_LDFLAGS')
+SDWebImage in Pods (implicit dependency via options '-framework SDWebImage' in build setting 'OTHER_LDFLAGS')

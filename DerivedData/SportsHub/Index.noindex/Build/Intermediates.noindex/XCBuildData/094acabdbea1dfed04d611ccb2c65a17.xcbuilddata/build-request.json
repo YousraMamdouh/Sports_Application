@@ -1,0 +1,78 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42fa2e43183734e48231e71168c0841a74"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42c46180aea4e87057640961e6db37df0d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42a71d233d7851c31f450cfea5c9e5721d"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd421ab2c1195c2db17c7e73374694e003d0"
+    },
+    {
+      "guid" : "8699adb1dd336b26511df848a716bd42596a8382521186eea3f49568c8ed28f9"
+    },
+    {
+      "guid" : "f4e505bbd8a4e9809849b3f465c04ac0e2d948745a03c44d6fad937a63f72a70"
+    },
+    {
+      "guid" : "f4e505bbd8a4e9809849b3f465c04ac07a1be40719aa29778a3c39148cf0a7bc"
+    },
+    {
+      "guid" : "f4e505bbd8a4e9809849b3f465c04ac0c4048e019492324d4c8ae7ed39010f1c"
+    }
+  ],
+  "containerPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub.xcworkspace",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator16.4",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Products",
+      "pchPath" : "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
