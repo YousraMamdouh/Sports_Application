@@ -323,11 +323,20 @@ SWIFT_CLASS("_TtC9SportsHub18HomeViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+@class UILabel;
 
 SWIFT_CLASS("_TtC9SportsHub21LatestResultTableCell")
 @interface LatestResultTableCell : UITableViewCell
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified secondTeamImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified firstTeamName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified secondTeamName;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified firstTeamImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified date;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified time;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified score;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -337,10 +346,19 @@ SWIFT_CLASS("_TtC9SportsHub21LatestResultTableCell")
 SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 @interface LeaguesDetailsViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified bottomCollectionView;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified topCollectionView;
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface LeaguesDetailsViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UICollectionViewLayout;
@@ -353,19 +371,12 @@ SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 @end
 
 
-@interface LeaguesDetailsViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-@end
-
-
 SWIFT_CLASS("_TtC9SportsHub26LeaguesTableViewController")
 @interface LeaguesTableViewController : UITableViewController
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
@@ -388,8 +399,6 @@ SWIFT_CLASS("_TtC9SportsHub13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UILabel;
-@class UIImageView;
 
 SWIFT_CLASS("_TtC9SportsHub23SportCollectionViewCell")
 @interface SportCollectionViewCell : UICollectionViewCell
@@ -413,16 +422,23 @@ SWIFT_CLASS("_TtC9SportsHub13TableViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSLayoutConstraint;
+
+SWIFT_CLASS("_TtC9SportsHub9TeamsCell")
+@interface TeamsCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified teamLogo;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9SportsHub18UpComingEventsCell")
 @interface UpComingEventsCell : UICollectionViewCell
 - (void)awakeFromNib;
-@property (nonatomic, weak) IBOutlet NSLayoutConstraint * _Null_unspecified timeLabel;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateLabel;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified firstTeamImage;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified secondTeamImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified eventName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified timeLabel;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

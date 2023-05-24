@@ -16,10 +16,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="577" height="219"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball.png" translatesAutoresizingMaskIntoConstraints="NO" id="x3R-iv-SLk">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="x3R-iv-SLk">
                         <rect key="frame" x="19.999999999999993" y="13" width="115.33333333333331" height="153"/>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball.png" translatesAutoresizingMaskIntoConstraints="NO" id="8cw-xU-L8N">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8cw-xU-L8N">
                         <rect key="frame" x="417" y="13" width="115.33333333333337" height="153"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1I-ls-O8z">
@@ -28,14 +28,14 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="first team" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVj-4I-FAr">
-                        <rect key="frame" x="8.3333333333333286" y="174" width="138.66666666666669" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="first team" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVj-4I-FAr">
+                        <rect key="frame" x="8.3333333333333286" y="174" width="138.66666666666669" height="20.333333333333343"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="second team" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umQ-8Z-XKm">
-                        <rect key="frame" x="405.33333333333331" y="174" width="138.66666666666669" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="second team" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umQ-8Z-XKm">
+                        <rect key="frame" x="405.33333333333331" y="174" width="138.66666666666669" height="20.333333333333343"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -88,10 +88,16 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="date" destination="h1I-ls-O8z" id="tNm-hU-eAO"/>
+                <outlet property="firstTeamImage" destination="x3R-iv-SLk" id="SSy-YI-4v5"/>
+                <outlet property="firstTeamName" destination="rVj-4I-FAr" id="h9n-g2-z7X"/>
+                <outlet property="score" destination="pJn-i2-V47" id="yQf-GD-glB"/>
+                <outlet property="secondTeamImage" destination="8cw-xU-L8N" id="EVk-Oh-xfW"/>
+                <outlet property="secondTeamName" destination="umQ-8Z-XKm" id="wYV-kR-WVo"/>
+                <outlet property="time" destination="iTr-5i-QDc" id="hvQ-rL-1wC"/>
+            </connections>
             <point key="canvasLocation" x="251.14503816793894" y="49.647887323943664"/>
         </tableViewCell>
     </objects>
-    <resources>
-        <image name="basketball.png" width="236" height="214"/>
-    </resources>
 </document>

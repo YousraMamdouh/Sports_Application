@@ -16,17 +16,25 @@
 		<data>
 		U0x8EM0781fCPb62BbZIXKeDlZ4=
 		</data>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<data>
+		riBMtT8ZBPKoEYfP6NE7h2cjUWw=
+		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		Y3dj6fi1LV5JGVPfM/blkab7i3c=
+		uQjIdU+gFiigV0SfO/DybkKEXZg=
+		</data>
+		<key>Base.lproj/Main.storyboardc/LeaguesDetailsViewController.nib</key>
+		<data>
+		1+hD81HQ61I09c/xp+vDaYfHdyU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LeaguesTableViewController.nib</key>
 		<data>
 		/wsW8LMjGl5HGc7sdVpKkreY/GY=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UIViewController-jQx-7q-nH2.nib</key>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-sUJ-om-EvL.nib</key>
 		<data>
-		GU56eQVBwYfw9coiNRFIhMYu/d4=
+		U933mWywvPMNGGLLtOiEfcooC3s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/bXn-gb-Wer-view-OqQ-4S-oWR.nib</key>
 		<data>
@@ -34,7 +42,11 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/jQx-7q-nH2-view-KaX-yg-JCD.nib</key>
 		<data>
-		0oKosXgPRIqZwF1nZiLB1Z6h7jQ=
+		JmBRUwEvaf4j536k2mvEsmVIrEI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
+		<data>
+		t07875Qjk51om75on+bUIO1O7Ug=
 		</data>
 		<key>Frameworks/Lottie.framework/Info.plist</key>
 		<data>
@@ -66,7 +78,7 @@
 		</data>
 		<key>LatestResultTableCell.nib</key>
 		<data>
-		y/ESsMHMTbNKnO6CRgaABCFOEJI=
+		vvbqEAS0dmK1MYbT9mJAxAcWVCY=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -98,7 +110,7 @@
 		</data>
 		<key>UpComingEventsCell.nib</key>
 		<data>
-		qADMXN83X38iKvy4EFs1WWQrGCA=
+		mUUuNPFY7+vzPC57gsCN6/YkKRA=
 		</data>
 		<key>basketball.png</key>
 		<data>
@@ -140,11 +152,25 @@
 			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0cYLoH5946kVxsIF5baj3rHtfGAMPUSgOPDnPTrUJwU=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+nyyYNg9/QhvtHBBrjXgYCMm1PyqJwI1sTj8Q+YoFr4=
+			77F9056FjN6HUYugE/KwvpGRqdO7WkWWUsTbzIMN8XY=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/LeaguesDetailsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FmLRVJQO/3pXDSgqSvRueQl56yJ3MaMK8g45/cHpC6s=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LeaguesTableViewController.nib</key>
@@ -154,11 +180,11 @@
 			UaO2uotpdnJC4k5yBZe2ecA9MNMN2ubnMm5dawIxyY8=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UIViewController-jQx-7q-nH2.nib</key>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-sUJ-om-EvL.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OqfOc+3XKKssBVWOPwiNNdlQKQr5/BSNTpnPkmywdnc=
+			WjxDaherpqoU+vBMJmFZSU2YxpBBejaSAVsHTAJ3yi4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/bXn-gb-Wer-view-OqQ-4S-oWR.nib</key>
@@ -172,7 +198,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kmnZxAtNCoVcg8jxBXxKuOh+67ofDbFn2Q1qd8PDd5c=
+			JbNRPiDvkzMLsUnA4dUsGGfr4Ie5hTC3vu86tQzg72I=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TtRK6GDky+R3PrS5ZVIcWOojA/xTGAZM0tC526Dfu7k=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/Info.plist</key>
@@ -221,7 +254,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xU2zwRMotNIgEZpYdHIYJUx1lqzrkx6tcFlMDV5K0qI=
+			iY+q3pd+XYAyltOeoHsdOdMwulQ4guGwf9wa/vMjsas=
 			</data>
 		</dict>
 		<key>Placeholder.png</key>
@@ -270,7 +303,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R4plGjpw2wm9VMMo3Xs9yFvPdujQzP6CLmMlLFo3wJ4=
+			/+zMbs7EoPHHhasI6QNm0QaZGPwGs+7Sl65m7DjFEGY=
 			</data>
 		</dict>
 		<key>basketball.png</key>

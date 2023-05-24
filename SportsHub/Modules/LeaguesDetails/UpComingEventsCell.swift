@@ -14,7 +14,7 @@ class UpComingEventsCell: UICollectionViewCell {
         // Initialization code
         contentView.translatesAutoresizingMaskIntoConstraints = false
     }
-    @IBOutlet weak var timeLabel: NSLayoutConstraint!
+
     
     @IBOutlet weak var dateLabel: UILabel!
     
@@ -22,6 +22,7 @@ class UpComingEventsCell: UICollectionViewCell {
     @IBOutlet weak var secondTeamImage: UIImageView!
     @IBOutlet weak var eventName: UILabel!
 
-
+    @IBOutlet weak var timeLabel: UILabel!
+    
 }
 

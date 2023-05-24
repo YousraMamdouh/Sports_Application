@@ -16,10 +16,10 @@
                 <rect key="frame" x="0.0" y="0.0" width="449" height="171"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cricket.png" translatesAutoresizingMaskIntoConstraints="NO" id="2Lh-M7-GeH">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2Lh-M7-GeH">
                         <rect key="frame" x="14.999999999999993" y="25.666666666666664" width="112.33333333333331" height="119.66666666666669"/>
                     </imageView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="basketball.png" translatesAutoresizingMaskIntoConstraints="NO" id="67F-wV-KQu">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="67F-wV-KQu">
                         <rect key="frame" x="325" y="35.333333333333336" width="100" height="100.33333333333331"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fx0-Jj-B3y">
@@ -34,8 +34,8 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUW-jN-z8L">
-                        <rect key="frame" x="135.33333333333337" y="44" width="179.66666666666663" height="21"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cUW-jN-z8L">
+                        <rect key="frame" x="135.33333333333337" y="44.666666666666664" width="179.66666666666663" height="20.333333333333336"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -68,12 +68,9 @@
                 <outlet property="eventName" destination="cUW-jN-z8L" id="KUa-SH-ufT"/>
                 <outlet property="firstTeamImage" destination="2Lh-M7-GeH" id="BIw-pN-q8U"/>
                 <outlet property="secondTeamImage" destination="67F-wV-KQu" id="NUt-5k-jQB"/>
+                <outlet property="timeLabel" destination="4th-9E-e5h" id="DKY-f7-8RB"/>
             </connections>
             <point key="canvasLocation" x="246.56488549618319" y="11.619718309859156"/>
         </collectionViewCell>
     </objects>
-    <resources>
-        <image name="basketball.png" width="236" height="214"/>
-        <image name="cricket.png" width="360" height="360"/>
-    </resources>
 </document>
