@@ -1,7 +1,0 @@
-Target dependency graph (3 targets)
-lottie-ios in Pods, no dependencies
-Pods-SportsHub in Pods, depends on:
-lottie-ios in Pods (explicit)
-SportsHub in SportsHub, depends on:
-Pods-SportsHub in Pods (implicit dependency via file 'Pods_SportsHub.framework' in build phase 'Link Binary')
-lottie-ios in Pods (implicit dependency via options '-framework Lottie' in build setting 'OTHER_LDFLAGS')
