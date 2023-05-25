@@ -21,18 +21,18 @@ class Team:Decodable
 class FootballTeam:Decodable
 {
     var success:Int?
-    var result: TeamDetails?
+    var result: [TeamDetails]?
     
 }
 class TeamDetails:Decodable{
     var team_name:String?
     var team_logo:String?
-    var players:[player]?
-    var coaches:[Coache]?
+    var players:[Player]?
+    var coaches:[Coach]?
     
 }
 
-class player:Decodable {
+class Player:Decodable {
     var player_name:String?
     var player_number:String?
     var player_age:String?
@@ -40,7 +40,7 @@ class player:Decodable {
     var player_image:String?
 }
 
-class Coache:Decodable{
+class Coach:Decodable{
     var coach_name:String?
 }
 

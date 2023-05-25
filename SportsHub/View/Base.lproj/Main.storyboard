@@ -143,10 +143,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ohG-M4-Fdn">
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="always" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ohG-M4-Fdn">
                                 <rect key="frame" x="0.0" y="214" width="393" height="638"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="B5J-Wy-Hdi">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="B5J-Wy-Hdi">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -185,9 +185,19 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9kK-F0-HO6">
+                                        <rect key="frame" x="342" y="0.0" width="51" height="35"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                                        <connections>
+                                            <action selector="addToFavoritesButton:" destination="Sm6-Yh-ITQ" eventType="touchUpInside" id="4dF-Fk-frz"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.28235294119999998" green="0.74901960779999999" blue="0.74509803919999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="9kK-F0-HO6" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="u2v-Ig-9XR" secondAttribute="trailing" constant="8" symbolic="YES" id="6Bu-k1-Wz5"/>
                                     <constraint firstItem="u2v-Ig-9XR" firstAttribute="centerY" secondItem="pC2-Rk-m23" secondAttribute="centerY" id="6Qe-Wy-uTO"/>
                                     <constraint firstItem="Ttg-UD-r0D" firstAttribute="centerY" secondItem="pC2-Rk-m23" secondAttribute="centerY" constant="-20" id="AhY-Q4-SKb"/>
                                     <constraint firstItem="4VW-H2-YXA" firstAttribute="width" secondItem="Ttg-UD-r0D" secondAttribute="width" multiplier="1.12187" id="B9h-se-42I"/>
@@ -195,12 +205,16 @@
                                     <constraint firstItem="u2v-Ig-9XR" firstAttribute="height" secondItem="pC2-Rk-m23" secondAttribute="height" multiplier="0.896774" id="CmW-ys-M1g"/>
                                     <constraint firstItem="RHp-5D-bNW" firstAttribute="top" secondItem="34a-ef-QGF" secondAttribute="bottom" constant="19" id="Ecy-DQ-Bie"/>
                                     <constraint firstItem="4VW-H2-YXA" firstAttribute="top" secondItem="Ttg-UD-r0D" secondAttribute="bottom" constant="19" id="PZR-iL-zZh"/>
+                                    <constraint firstAttribute="trailing" secondItem="4VW-H2-YXA" secondAttribute="trailing" constant="13.333333333333314" id="YPk-3p-GGN"/>
                                     <constraint firstItem="RHp-5D-bNW" firstAttribute="leading" secondItem="u2v-Ig-9XR" secondAttribute="trailing" constant="33" id="c8Y-4i-Y0J"/>
-                                    <constraint firstItem="4VW-H2-YXA" firstAttribute="leading" secondItem="RHp-5D-bNW" secondAttribute="trailing" constant="26" id="cno-4A-069"/>
+                                    <constraint firstItem="4VW-H2-YXA" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="RHp-5D-bNW" secondAttribute="trailing" symbolic="YES" id="cno-4A-069"/>
                                     <constraint firstItem="u2v-Ig-9XR" firstAttribute="leading" secondItem="pC2-Rk-m23" secondAttribute="leading" constant="21" id="eR3-zG-oYi"/>
-                                    <constraint firstItem="Ttg-UD-r0D" firstAttribute="leading" secondItem="34a-ef-QGF" secondAttribute="trailing" constant="34" id="n1E-HM-Pk7"/>
+                                    <constraint firstItem="Ttg-UD-r0D" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="34a-ef-QGF" secondAttribute="trailing" symbolic="YES" id="n1E-HM-Pk7"/>
                                     <constraint firstItem="34a-ef-QGF" firstAttribute="leading" secondItem="u2v-Ig-9XR" secondAttribute="trailing" constant="33" id="pTe-2v-DGv"/>
                                     <constraint firstItem="34a-ef-QGF" firstAttribute="centerY" secondItem="pC2-Rk-m23" secondAttribute="centerY" constant="-20" id="pzq-nP-SrC"/>
+                                    <constraint firstAttribute="trailing" secondItem="Ttg-UD-r0D" secondAttribute="trailing" constant="26.333333333333314" id="sMs-kD-EP4"/>
+                                    <constraint firstAttribute="trailing" secondItem="9kK-F0-HO6" secondAttribute="trailing" id="suu-w0-mpc"/>
+                                    <constraint firstItem="9kK-F0-HO6" firstAttribute="top" secondItem="pC2-Rk-m23" secondAttribute="top" id="ua6-0l-nGp"/>
                                     <constraint firstItem="u2v-Ig-9XR" firstAttribute="width" secondItem="pC2-Rk-m23" secondAttribute="width" multiplier="0.320611" id="zge-j8-op5"/>
                                 </constraints>
                             </view>
@@ -219,8 +233,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="coach" destination="4VW-H2-YXA" id="wiq-tC-lTm"/>
                         <outlet property="collectionView" destination="ohG-M4-Fdn" id="Wzs-Le-4BK"/>
-                        <outlet property="teamCoach" destination="4VW-H2-YXA" id="5a7-bt-cWF"/>
                         <outlet property="teamImage" destination="u2v-Ig-9XR" id="9m3-Wy-85a"/>
                         <outlet property="teamName" destination="Ttg-UD-r0D" id="Ytp-Cr-g6y"/>
                     </connections>
@@ -442,6 +456,7 @@
     <resources>
         <image name="Placeholder.png" width="681" height="528"/>
         <image name="figure.disc.sports" catalog="system" width="128" height="108"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
         <image name="heart.fill" catalog="system" width="128" height="107"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

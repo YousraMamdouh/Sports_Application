@@ -12,6 +12,7 @@ class PlayerCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        setCellStyle(view: backView)
         
     }
 

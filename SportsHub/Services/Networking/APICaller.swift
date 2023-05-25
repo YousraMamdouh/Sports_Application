@@ -163,8 +163,9 @@ class APICaller {
                       do{
                           let result = try JSONDecoder().decode(FootballTeam.self, from: data)
                           //print(result.result?[3].league_name ?? "No Title")
-                  
+                          print("bndawar 3la:\(result.result?[0].players?[0].player_name)")
                           complitionHandler(result)
+                          
                       }
                       catch let error{
         

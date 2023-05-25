@@ -3,10 +3,10 @@
 <plist version="1.0">
 <array>
 	<string>Foundation</string>
-	<string>objc</string>
-	<string>AppKit</string>
-	<string>CoreVideo</string>
 	<string>CoreData</string>
+	<string>AppKit</string>
+	<string>objc</string>
+	<string>CoreVideo</string>
 	<string>CoreGraphics</string>
 	<string>Accelerate</string>
 	<string>mach</string>
@@ -14,11 +14,11 @@
 	<string>SDWebImage</string>
 	<string>libkern</string>
 	<string>CoreText</string>
+	<string>os</string>
 	<string>CoreServices</string>
-	<string>sys</string>
 	<string>UIKit</string>
 	<string>SportsHub</string>
-	<string>os</string>
+	<string>sys</string>
 	<string>CoreImage</string>
 	<string>WatchKit</string>
 	<string>XCTest</string>
