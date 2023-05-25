@@ -425,6 +425,7 @@ SWIFT_CLASS("_TtC9SportsHub13TableViewCell")
 
 SWIFT_CLASS("_TtC9SportsHub9TeamsCell")
 @interface TeamsCell : UICollectionViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified teamName;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified teamLogo;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;

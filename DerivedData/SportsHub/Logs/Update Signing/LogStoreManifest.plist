@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>AAF4D898-A38C-46CD-8854-4FFACAEA09C3</key>
+		<key>2F518C88-1ED4-46B6-B1D2-AC8F95E8A16F</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>AAF4D898-A38C-46CD-8854-4FFACAEA09C3.xcactivitylog</string>
+			<string>2F518C88-1ED4-46B6-B1D2-AC8F95E8A16F.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,15 +26,15 @@
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>706617360.23082304</real>
+			<real>706714460.70265806</real>
 			<key>timeStoppedRecording</key>
-			<real>706617363.53475404</real>
+			<real>706714464.22716606</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>AAF4D898-A38C-46CD-8854-4FFACAEA09C3</string>
+			<string>2F518C88-1ED4-46B6-B1D2-AC8F95E8A16F</string>
 		</dict>
-		<key>FAAAC2EC-220D-4D41-BD62-532250C3509C</key>
+		<key>B11D8996-3584-4873-A756-29CCDE3885CF</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>FAAAC2EC-220D-4D41-BD62-532250C3509C.xcactivitylog</string>
+			<string>B11D8996-3584-4873-A756-29CCDE3885CF.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>706649113.52047205</real>
+			<real>706706164.09138501</real>
 			<key>timeStoppedRecording</key>
-			<real>706649118.09486306</real>
+			<real>706706167.20018899</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>FAAAC2EC-220D-4D41-BD62-532250C3509C</string>
+			<string>B11D8996-3584-4873-A756-29CCDE3885CF</string>
 		</dict>
 	</dict>
 </dict>

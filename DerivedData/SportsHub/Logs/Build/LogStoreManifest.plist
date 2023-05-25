@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>FDD015E0-FC40-4955-A338-8CE60B6698E2</key>
+		<key>31DC9CD7-42BD-4B53-9152-28BE212C0A78</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>FDD015E0-FC40-4955-A338-8CE60B6698E2.xcactivitylog</string>
+			<string>31DC9CD7-42BD-4B53-9152-28BE212C0A78.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,47 @@
 			<key>signature</key>
 			<string>Build SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>706648764.71328998</real>
+			<real>706709320.005584</real>
 			<key>timeStoppedRecording</key>
-			<real>706648766.67771101</real>
+			<real>706709327.33580101</real>
 			<key>title</key>
 			<string>Build SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>FDD015E0-FC40-4955-A338-8CE60B6698E2</string>
+			<string>31DC9CD7-42BD-4B53-9152-28BE212C0A78</string>
+		</dict>
+		<key>EF51E89B-37BD-474E-AAE5-8248E272212A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EF51E89B-37BD-474E-AAE5-8248E272212A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SportsHub project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SportsHub</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build SportsHub</string>
+			<key>timeStartedRecording</key>
+			<real>706714467.37560904</real>
+			<key>timeStoppedRecording</key>
+			<real>706714468.21499002</real>
+			<key>title</key>
+			<string>Build SportsHub</string>
+			<key>uniqueIdentifier</key>
+			<string>EF51E89B-37BD-474E-AAE5-8248E272212A</string>
 		</dict>
 	</dict>
 </dict>

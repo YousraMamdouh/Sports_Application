@@ -9,5 +9,6 @@ import UIKit
 
 class TeamsCell: UICollectionViewCell {
     
+    @IBOutlet weak var teamName: UILabel!
     @IBOutlet weak var teamLogo: UIImageView!
 }

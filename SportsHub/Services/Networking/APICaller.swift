@@ -29,7 +29,7 @@ class APICaller {
                       }
                       do{
                           let result = try JSONDecoder().decode(FootballLeagues.self, from: data)
-                          print(result.result?[3].league_name ?? "No Title")
+                        
                           complitionHandler(result)
                       }
                       catch let error{
@@ -62,7 +62,7 @@ class APICaller {
                       }
                       do{
                           let result = try JSONDecoder().decode(Events.self, from: data)
-                        //  print(result.result?[3].league_name ?? "No Title")
+                      
                           complitionHandler(result)
                       }
                       catch let error{
@@ -110,5 +110,36 @@ class APICaller {
             
                       task.resume()
     }
+        static func getTeams(sportName:String,leagueId:Int,complitionHandler: @escaping (Teams)-> Void)
+    {
+        let urlString:String = Network.shared.getTeams(sportName: sportName, leagueId: leagueId)
+        guard let url = URL(string:urlString ) else
+        {
+            return
+        }
+        let req = URLRequest(url: url)
         
+        let session = URLSession(configuration: .default)
+                  let task = session.dataTask(with: req){ (data , respone, error) in
+        
+                      guard let data = data else
+                      {
+                        return
+                      }
+                      do{
+                          let result = try JSONDecoder().decode(Teams.self, from: data)
+                          //print(result.result?[3].league_name ?? "No Title")
+                  
+                          complitionHandler(result)
+                      }
+                      catch let error{
+        
+                          print(error.localizedDescription)
+                        //  complitionHandler(nil)
+                          }
+        
+                      }
+        
+                  task.resume()
+    }
 }
