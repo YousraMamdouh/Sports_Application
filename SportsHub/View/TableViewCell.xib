@@ -42,8 +42,7 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
-            <color key="backgroundColor" red="0.28051486609999998" green="0.74907410139999997" blue="0.74399965999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-            <color key="tintColor" red="0.28051486609999998" green="0.74907410139999997" blue="0.74399965999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
             <connections>
                 <outlet property="backView" destination="H2p-sc-9uM" id="Puj-Jx-TFU"/>
                 <outlet property="leagueImage" destination="d7X-aH-Ph2" id="nOZ-h5-dnk"/>

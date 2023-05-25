@@ -14,7 +14,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
 //    let cricket = SportDTO(name: "Cricket", image: "cricket.png")
 //    let tennis = SportDTO(name: "Tennis", image: "tennis.png")
     
-    let arrayOfSports : [SportDTO] = [SportDTO(name: "Football", image: "football.png"),SportDTO(name: "Basketball", image: "basketball.png"),SportDTO(name: "Cricket", image: "cricket.png"),SportDTO(name: "Tennis", image: "tennis.png")]
+    let arrayOfSports : [SportDTO] = [SportDTO(name: "Football", image: "Football.png"),SportDTO(name: "Basketball", image: "Basketball.png"),SportDTO(name: "Cricket", image: "Cricket.png"),SportDTO(name: "Tennis", image: "Tennis.png")]
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {

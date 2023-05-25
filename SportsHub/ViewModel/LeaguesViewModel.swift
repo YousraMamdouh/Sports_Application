@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewModel{
+class LeaguesViewModel{
 
  
 

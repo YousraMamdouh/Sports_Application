@@ -16,20 +16,15 @@ class TableViewCell: UITableViewCell {
         
         setCellStyle(view: backView)
         setImageStyle(image: leagueImage)
+        
+       
+
+//        self.layoutMargins = UIEdgeInsets.zero //or UIEdgeInsetsMake(top, left, bottom, right)
+//        self.separatorInset = UIEdgeInsets.zero //if you also want to adjust separatorInset
+      
     }
-    func setImageStyle(image:UIImageView) {
-       // image.layer.borderWidth = 1
-        image.layer.masksToBounds = false
-       // image.layer.borderColor = UIColor.black.cgColor
-        image.layer.cornerRadius = leagueImage.frame.height/2
-        image.clipsToBounds = true
-     }
-    func setCellStyle(view:UIView)
-    {
-      view.layer.borderColor = UIColor.label.cgColor
-     view.layer.borderWidth = 1
-       view.layer.cornerRadius = 10
-    }
+  
+   
     
     @IBOutlet weak var backView: UIView!
     

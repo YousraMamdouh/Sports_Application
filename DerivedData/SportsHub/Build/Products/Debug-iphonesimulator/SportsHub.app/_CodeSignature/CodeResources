@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		TyS8GgqAbthWwE18hUJd7KeuPOM=
+		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
 		BH9AJkdiekadcoRaub+q4C7+Ydo=
@@ -22,7 +26,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		uQjIdU+gFiigV0SfO/DybkKEXZg=
+		H4hkI3grfWBmotE2QoJ+NT35RDY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LeaguesDetailsViewController.nib</key>
 		<data>
@@ -32,17 +36,25 @@
 		<data>
 		/wsW8LMjGl5HGc7sdVpKkreY/GY=
 		</data>
+		<key>Base.lproj/Main.storyboardc/Sm6-Yh-ITQ-view-vzL-ws-W8L.nib</key>
+		<data>
+		WlYF0UgmEB0ELarpu5rv2++8EvI=
+		</data>
+		<key>Base.lproj/Main.storyboardc/TeamDetailsViewController.nib</key>
+		<data>
+		D2IVZPkz/Ya6fibvCk60SQ+PzwQ=
+		</data>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-sUJ-om-EvL.nib</key>
 		<data>
 		U933mWywvPMNGGLLtOiEfcooC3s=
 		</data>
 		<key>Base.lproj/Main.storyboardc/bXn-gb-Wer-view-OqQ-4S-oWR.nib</key>
 		<data>
-		Mi6sCGp+5xwtMUpOfDOqwjjt+lQ=
+		gukRFv2DkUVouU5vCJdHlZRb0bc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/jQx-7q-nH2-view-KaX-yg-JCD.nib</key>
 		<data>
-		JlGsgUNEupsr80EVLhlpRTpA7qo=
+		/QLZjt2prKozsSLTeaHRrFqtXVI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
 		<data>
@@ -84,9 +96,9 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>Placeholder.png</key>
+		<key>PlayerCell.nib</key>
 		<data>
-		HygXwew0h6UFLOSV+jbNxUWB5Eg=
+		iQ1ZdexnhzoFhSztUd+6TV3yyPQ=
 		</data>
 		<key>SportCollectionViewCell.nib</key>
 		<data>
@@ -106,31 +118,22 @@
 		</data>
 		<key>TableViewCell.nib</key>
 		<data>
-		e1+AQxaN7q2G87fV45jcJwpk0CU=
+		Owhte0Vktw+Pk47BaX217zyofaA=
 		</data>
 		<key>UpComingEventsCell.nib</key>
 		<data>
 		m86ezW6qlnMWZV+2koorOo28W/I=
 		</data>
-		<key>basketball.png</key>
-		<data>
-		W6rbgjqTvnZ6bYKtXUXEiEPFvvA=
-		</data>
-		<key>cricket.png</key>
-		<data>
-		i0sgOKkuRK8e8raZxPGY4r71l5I=
-		</data>
-		<key>football.png</key>
-		<data>
-		l0igKbpstXpfSqSrXo53isjgQho=
-		</data>
-		<key>tennis.png</key>
-		<data>
-		+3C6vvwTxR4XmB1CeCOWzu3+x7E=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7/ZKTvS76zopPscrRkPJ/lkg8Uz68RVuKVo5+Q2iQIk=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -163,7 +166,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			77F9056FjN6HUYugE/KwvpGRqdO7WkWWUsTbzIMN8XY=
+			irjNv1I+gvM0FCdz5ikCpwt+LyYj8xHZi22HzoFm0UA=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LeaguesDetailsViewController.nib</key>
@@ -180,6 +183,20 @@
 			UaO2uotpdnJC4k5yBZe2ecA9MNMN2ubnMm5dawIxyY8=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/Sm6-Yh-ITQ-view-vzL-ws-W8L.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0bk/Ven52zTEBTVYEcxEVdtXqm08V5/RW2x/9czeNZA=
+			</data>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/TeamDetailsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UYOHvtYDh1MLtDis/eWAGCXfE0QW9Kb8o57wl+xA7HE=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/UITabBarController-sUJ-om-EvL.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -191,14 +208,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4pWqcG+JwVww5bKfplu71QEG3qMvOSsfafW2eODaeI=
+			bdX1rbZzyc5JL/RmdTjC/blpS6EPgRjcBgFYSh00NNw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/jQx-7q-nH2-view-KaX-yg-JCD.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qj+rjR0eoaNO/bBMj29gZj3IlS7ifSBZGE44hNnjDX8=
+			jACxq6YTlj08L+OB0Uw8/y8DLA7e5VDudl6l9lF3VUU=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
@@ -257,11 +274,11 @@
 			6OwOKQ15g7q8HH7jMvqkf2oEMF7KDzBzg+A6xmSdXIs=
 			</data>
 		</dict>
-		<key>Placeholder.png</key>
+		<key>PlayerCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o0KYwtU+LW3CUlVSAkfGgJA4Q9o6cG1b7uolRnRFX6w=
+			Y2rfZBWMWdtlCwahTVOkQGR2gHWCq9hcylcE2a0NG7k=
 			</data>
 		</dict>
 		<key>SportCollectionViewCell.nib</key>
@@ -296,7 +313,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YoQGD9LoOTl09isM5wQaNOWtLxR9NQHY8nil8TmTdko=
+			hcisormlMhU5MjzQ0gOiF1a6Z9cXWtyBdjXZZj/nw30=
 			</data>
 		</dict>
 		<key>UpComingEventsCell.nib</key>
@@ -304,34 +321,6 @@
 			<key>hash2</key>
 			<data>
 			cYBwjdrkZpDVktyFTRHVhQRo+HwAhI0CWYXOsy+HUGA=
-			</data>
-		</dict>
-		<key>basketball.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+EBShPDiaOH6iuHDJowAqQ4cRuIS+FXyjPdR7jyB/WQ=
-			</data>
-		</dict>
-		<key>cricket.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3jsVGcLxqmY4vhyFIyTDEZLspgFyl8Gi1hGehcfQpZw=
-			</data>
-		</dict>
-		<key>football.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+QhDGOIUfC0PDsUtVk6jprA3tulTnrxKMZQXh+ETp7Y=
-			</data>
-		</dict>
-		<key>tennis.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+K1ELNz1lY7J+klhnNpEOYzpWHcJJPZganhWiIX6zSs=
 			</data>
 		</dict>
 	</dict>

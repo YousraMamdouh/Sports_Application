@@ -23,13 +23,7 @@ class LatestResultTableCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
-    func setImageStyle(image:UIImageView) {
-       // image.layer.borderWidth = 1
-        image.layer.masksToBounds = false
-       // image.layer.borderColor = UIColor.black.cgColor
-        image.layer.cornerRadius = image.frame.height / 2
-        image.clipsToBounds = true
-     }
+   
     @IBOutlet weak var secondTeamImage: UIImageView!
     @IBOutlet weak var firstTeamName: UILabel!
     @IBOutlet weak var secondTeamName: UILabel!

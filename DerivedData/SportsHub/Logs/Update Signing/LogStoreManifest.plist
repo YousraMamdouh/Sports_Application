@@ -34,7 +34,7 @@
 			<key>uniqueIdentifier</key>
 			<string>2F518C88-1ED4-46B6-B1D2-AC8F95E8A16F</string>
 		</dict>
-		<key>B11D8996-3584-4873-A756-29CCDE3885CF</key>
+		<key>D235A6B4-0FBC-43A3-8D0B-81CBD4A89B94</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -43,7 +43,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.ProvisioningLog</string>
 			<key>fileName</key>
-			<string>B11D8996-3584-4873-A756-29CCDE3885CF.xcactivitylog</string>
+			<string>D235A6B4-0FBC-43A3-8D0B-81CBD4A89B94.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -54,13 +54,13 @@
 			<key>signature</key>
 			<string>Update Signing</string>
 			<key>timeStartedRecording</key>
-			<real>706706164.09138501</real>
+			<real>706723180.78727996</real>
 			<key>timeStoppedRecording</key>
-			<real>706706167.20018899</real>
+			<real>706723183.88467097</real>
 			<key>title</key>
 			<string>Update Signing</string>
 			<key>uniqueIdentifier</key>
-			<string>B11D8996-3584-4873-A756-29CCDE3885CF</string>
+			<string>D235A6B4-0FBC-43A3-8D0B-81CBD4A89B94</string>
 		</dict>
 	</dict>
 </dict>

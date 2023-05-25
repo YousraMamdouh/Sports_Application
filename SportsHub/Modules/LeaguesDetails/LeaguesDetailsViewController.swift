@@ -14,7 +14,7 @@ class LeaguesDetailsViewController: UIViewController {
     var upComingEventArray: [Event]?
     var latestEventsArray: [Event]?
     var teamsArray: [Team]?
-    let viewModel = ViewModel()
+    let viewModel = LeaguesViewModel()
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var bottomCollectionView: UICollectionView!
@@ -153,7 +153,20 @@ extension LeaguesDetailsViewController:UICollectionViewDelegate,UICollectionView
             
         }
     }
-    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        switch (collectionView)
+        {
+       
+        case bottomCollectionView:
+            let vC = self.storyboard?.instantiateViewController(identifier: "TeamDetailsViewController") as! TeamDetailsViewController
+            vC.teamId = teamsArray?[indexPath.row].team_key
+              self.navigationController?.pushViewController(vC, animated: true)
+        default:
+            return
+         
+            
+        }
+    }
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let upperCell = topCollectionView.dequeueReusableCell(withReuseIdentifier:
                                                 "upperCell", for: indexPath) as! UpComingEventsCell

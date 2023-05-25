@@ -10,14 +10,14 @@ import SDWebImage
 
 class LeaguesTableViewController: UITableViewController {
 
-    var viewModel : ViewModel = ViewModel()
+    var viewModel : LeaguesViewModel = LeaguesViewModel()
     var response: FootballLeagues?
     var gameName:String?
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+       
         tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-      
+        tableView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
