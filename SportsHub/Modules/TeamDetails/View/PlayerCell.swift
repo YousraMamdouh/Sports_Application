@@ -15,6 +15,20 @@ class PlayerCell: UICollectionViewCell {
         setCellStyle(view: backView)
         
     }
+    
+    func configureCell(player:Player)
+    {
+        
+        if let image = player.player_image
+               {
+             playerImage.sd_setImage(with: URL(string: image ), placeholderImage: UIImage(named: "Player.jpg"))
+          }
+           
+       playerAge.text = player.player_age
+      playerName.text = player.player_name
+      playerNumber.text = player.player_number
+       playerType.text = player.player_type
+    }
 
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var playerImage: UIImageView!

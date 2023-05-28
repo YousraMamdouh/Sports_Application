@@ -9,16 +9,12 @@ import UIKit
 
 class LeaguesViewModel{
 
- 
+    var upcomingEvents:[Event] = []
+    var latestEvents:[Event] = []
+    var teams: [Team] = []
 
-    func getLeagues(param:String,complitionHandler: @escaping (FootballLeagues?)-> Void)
-    {
-        APICaller.getLeagues(param: param) {
-            result in
-  
-            complitionHandler(result)
-        }
-    }
+    
+
     
 // func getUpComingEvents(sportName: String, leagueId: Int,complitionHandler: @escaping ([Any]?)-> Void)
 //    {
@@ -43,36 +39,96 @@ class LeaguesViewModel{
 //        }
 //    }
     
-    func getUpComingEvents(sportName: String, leagueId: Int,complitionHandler: @escaping ([Event]?)-> Void)
+  
+    
+    // MARK: - getLeagues
+    func getLeagues(param:String,complitionHandler: @escaping (FootballLeagues?)-> Void)
+    {
+        APICaller.getLeagues(param: param) {
+            result in
+  
+            complitionHandler(result)
+        }
+    }
+
+    
+    // MARK: - UpComingEvents section
+    
+    func getUpComingEvents(sportName: String, leagueId: Int,complitionHandler: @escaping ()-> Void)
        {
            APICaller.getUpcomingEvents(sportName: sportName, leagueId: leagueId)
            {result in
-           
+               
             
-               complitionHandler(result.result)
+               self.upcomingEvents = result.result!
+            
+               complitionHandler()
           
                
            }
        }
     
-     func getLatestEvents(sportName:String,leagueId:Int,complitionHandler: @escaping ([Event]?)-> Void)
+    func getUpComingEventsCount()-> Int
     {
-        APICaller.getLatestEvents(sportName: sportName, leagueId: leagueId)
-        {
-            result in
-  
-           complitionHandler(result.result)
-        }
+        upcomingEvents.count
     }
     
-    func getTeams(sportName:String,leagueId:Int,complitionHandler: @escaping ([Team]?)-> Void)
+    func getUpComingEvent(index:Int)-> Event
+    {
+        upcomingEvents[index]
+    }
+    
+    
+    
+    // MARK: - LatestEvents section
+    
+    func getLatestEvents(sportName:String,leagueId:Int,complitionHandler: @escaping ()-> Void)
+   {
+       APICaller.getLatestEvents(sportName: sportName, leagueId: leagueId)
+       {
+           result in
+           self.latestEvents = result.result ?? []
+ 
+          complitionHandler()
+       }
+   }
+    
+    
+    func getLaestEventsCount()-> Int
+    {
+        latestEvents.count
+    }
+    
+    func getLatestEvent(index:Int)-> Event
+    {
+        latestEvents[index]
+    }
+    
+    // MARK: - Team
+    
+    
+    func getTeams(sportName:String,leagueId:Int,complitionHandler: @escaping ()-> Void)
     {
         APICaller.getTeams(sportName: sportName, leagueId: leagueId)
         {
             result in
-  
-           complitionHandler(result.result)
+            self.teams = result.result ?? []
+           complitionHandler()
         }
+    }
+    func getTeams()-> Int
+    {
+        teams.count
+    }
+    
+    func getTeam(index:Int)-> Team
+    {
+       teams[index]
+    }
+    
+    func getTeamId(index:Int)-> Int
+    {
+        teams[index].team_key ?? 0
     }
     
 }

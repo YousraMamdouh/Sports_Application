@@ -17,7 +17,26 @@ class UpComingEventsCell: UICollectionViewCell {
         setImageStyle(image: secondTeamImage)
     }
   
+    func configureCell( event: Event)
+    {
     
+           
+            if let homeTeamImage = event.home_team_logo
+                  {
+                firstTeamImage.sd_setImage(with: URL(string: homeTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
+             }
+        if let awayTeamImage = event.away_team_logo
+                        {
+               secondTeamImage.sd_setImage(with: URL(string: awayTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
+                   }
+            
+
+        dateLabel.text = event.event_date
+        timeLabel.text = event.event_time
+        eventName.text = event.league_name
+            
+            
+        }
     @IBOutlet weak var dateLabel: UILabel!
     
     @IBOutlet weak var firstTeamImage: UIImageView!

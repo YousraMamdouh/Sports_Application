@@ -11,9 +11,6 @@ import SDWebImage
 class LeaguesDetailsViewController: UIViewController {
     var leagueId: Int?
     var gameName: String?
-    var upComingEventArray: [Event]?
-    var latestEventsArray: [Event]?
-    var teamsArray: [Team]?
     let viewModel = LeaguesViewModel()
     @IBOutlet weak var tableView: UITableView!
     
@@ -21,28 +18,13 @@ class LeaguesDetailsViewController: UIViewController {
     @IBOutlet weak var topCollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        tableView.delegate = self
-        tableView.dataSource = self
-        topCollectionView.delegate = self
-        topCollectionView.dataSource = self
-        bottomCollectionView.dataSource = self
-        bottomCollectionView.delegate = self
-        // Do any additional setup after loading the view.
-       tableView.register(UINib(nibName: "LatestResultTableCell", bundle: nil), forCellReuseIdentifier: "middleCell")
-        
-        
-        topCollectionView.register(UINib(nibName: "UpComingEventsCell", bundle: nil), forCellWithReuseIdentifier: "upperCell")
- 
-       
+        setUpTableView()
+        setUpCollectionView()
         if let gameName = gameName, let leagueId = leagueId
-        { print("leagueID= \(leagueId) and gameName= \(gameName)")
-            print("county:\(upComingEventArray?.count)")
+        {
             viewModel.getUpComingEvents(sportName: gameName , leagueId: leagueId)
             {
-                result in
-                print("county upcoming:\(self.upComingEventArray?.count)")
-                self.upComingEventArray = result
-                print("county result:\(result?.count)")
+                print("try")
                 DispatchQueue.main.async {
                 
                     self.topCollectionView.reloadData()
@@ -52,90 +34,70 @@ class LeaguesDetailsViewController: UIViewController {
             }
             
             viewModel.getLatestEvents(sportName: gameName, leagueId: leagueId){
-                result in
-                self.latestEventsArray = result
-                
+           
+    
                 DispatchQueue.main.async {
                     self.tableView.reloadData()
          
                 }
             }
             
-            viewModel.getTeams(sportName: gameName, leagueId: leagueId, complitionHandler: {
-                
-                result in
-                self.teamsArray = result
+            viewModel.getTeams(sportName: gameName, leagueId: leagueId) {
+           
                 
                 DispatchQueue.main.async {
                     self.bottomCollectionView.reloadData()
          
                 }
                 
-            })
+            }
         }
         else
         {
-            print("fadyeen")
+            print("no data returned")
         }
  
    
     }
-    
+    func setUpTableView()
+    {
+        tableView.delegate = self
+        tableView.dataSource = self
+        tableView.register(UINib(nibName: "LatestResultTableCell", bundle: nil), forCellReuseIdentifier: "middleCell")
+    }
+    func setUpCollectionView()
+    {
+        topCollectionView.delegate = self
+        topCollectionView.dataSource = self
+        bottomCollectionView.dataSource = self
+        bottomCollectionView.delegate = self
+        topCollectionView.register(UINib(nibName: "UpComingEventsCell", bundle: nil), forCellWithReuseIdentifier: "upperCell")
+    }
 
  }
+
+
 extension LeaguesDetailsViewController:UITableViewDelegate,UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return latestEventsArray?.count ?? 0
+        return viewModel.getLaestEventsCount()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let middleCell = tableView.dequeueReusableCell(withIdentifier:
                                                 "middleCell", for: indexPath) as! LatestResultTableCell
 
-     setMiddleCell(middleCell: middleCell, indexPath: indexPath)
+        middleCell.configureCell(event: viewModel.getLatestEvent(index: indexPath.row), gameName: gameName ?? "")
         
         return middleCell
     }
-    func numberOfSections(in tableView: UITableView) -> Int {
-        1
-    }
+   
 
-
-    
-//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-//        return 140
-//    }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
      return 200
     }
     
-    func setMiddleCell( middleCell:LatestResultTableCell,indexPath: IndexPath)
-    {
 
-        if let homeTeamImage = upComingEventArray?[indexPath.row].home_team_logo
-              {
-          middleCell.firstTeamImage.sd_setImage(with: URL(string: homeTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-         }
-              if let awayTeamImage = upComingEventArray?[indexPath.row].away_team_logo
-                    {
-                middleCell.secondTeamImage.sd_setImage(with: URL(string: awayTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-               }
-
-        middleCell.firstTeamName.text = latestEventsArray?[indexPath.row].event_home_team
-     middleCell.secondTeamName.text = latestEventsArray?[indexPath.row].event_away_team
-      middleCell.date.text = latestEventsArray?[indexPath.row].event_date
-        middleCell.time.text = latestEventsArray?[indexPath.row].event_time
-        middleCell.score.text = latestEventsArray?[indexPath.row].event_final_result
-        if(gameName == "tennis")
-        {
-            middleCell.firstTeamName.text = latestEventsArray?[indexPath.row].event_first_player
-            middleCell.secondTeamName.text = latestEventsArray?[indexPath.row].event_second_player
-    
-        }
-
-
-    }
 
 }
 
@@ -145,9 +107,9 @@ extension LeaguesDetailsViewController:UICollectionViewDelegate,UICollectionView
         switch (collectionView)
         {
         case topCollectionView:
-            return upComingEventArray?.count ?? 0
+            return viewModel.getUpComingEventsCount()
         case bottomCollectionView:
-            return teamsArray?.count ?? 0
+            return viewModel.getTeams()
         default:
             return 0
             
@@ -163,15 +125,13 @@ extension LeaguesDetailsViewController:UICollectionViewDelegate,UICollectionView
             {
             case "football":
                 let vC = self.storyboard?.instantiateViewController(identifier: "TeamDetailsViewController") as! TeamDetailsViewController
-                vC.teamId = teamsArray?[indexPath.row].team_key
+                vC.teamId = viewModel.getTeamId(index: indexPath.row)
                 self.navigationController?.pushViewController(vC, animated: true)
                 
             case "tennis":
                 print("tennis")
             default:
                 Alerts.makeConfirmationDialogue(message: "Oops! No team details to view")
-        
-                    
             }
             
         default:
@@ -184,24 +144,23 @@ extension LeaguesDetailsViewController:UICollectionViewDelegate,UICollectionView
         
         
        let cell = bottomCollectionView.dequeueReusableCell(withReuseIdentifier: "TeamsCell", for: indexPath) as! TeamsCell
-        setUpperCell(upperCell: upperCell, indexPath: indexPath)
+       
  switch(collectionView)
         {
  case bottomCollectionView:
-     setLowerCell(lowerCell: cell, indexPath: indexPath)
+     cell.configureCell(team: viewModel.getTeam(index: indexPath.row))
      return cell
+ case topCollectionView:
+     upperCell.configureCell(event: viewModel.getUpComingEvent(index: indexPath.row))
+     return upperCell
  default:
      return upperCell
+    
  }
         
     }
     
-    func numberOfSections(in collectionView: UICollectionView) -> Int {
-        return 1
-    }
-//    override func size(forChildContentContainer container: UIContentContainer, withParentContainerSize parentSize: CGSize) -> CGSize {
-//        return CGSize(width: topCollectionView.frame.size.width, height: topCollectionView.frame.size.height)
-//    }
+
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
 
@@ -217,79 +176,8 @@ extension LeaguesDetailsViewController:UICollectionViewDelegate,UICollectionView
      
 
     }
-    
-//    func setUpperCell( upperCell:UpComingEventsCell,indexPath: IndexPath)
-//    {
-//        switch gameName{
-//
-//
-//        case "tennis":
-//          let  tennisLeagueDetailsArray = upComingEventArray as! [Tennis]
-//
-//            upperCell.dateLabel.text = tennisLeagueDetailsArray[indexPath.row].event_date
-//            upperCell.timeLabel.text = tennisLeagueDetailsArray[indexPath.row].event_time
-//            upperCell.eventName.text = tennisLeagueDetailsArray[indexPath.row].league_name
-//
-//            print("bosy:\(tennisLeagueDetailsArray.count)")
-//
-//        case "cricket":
-//            let cricketLeaguesArray = upComingEventArray as! [Cricket]
-//            upperCell.dateLabel.text = cricketLeaguesArray[indexPath.row].event_date
-//            upperCell.timeLabel.text = cricketLeaguesArray[indexPath.row].event_time
-//            upperCell.eventName.text = cricketLeaguesArray[indexPath.row].league_name
-//        default:
-//            let defaultLeagueDetailsArray = upComingEventArray as! [FootballAndBasketball]
-//
-//
-//            if let homeTeamImage = defaultLeagueDetailsArray[indexPath.row].home_team_logo
-//                  {
-//                upperCell.firstTeamImage.sd_setImage(with: URL(string: homeTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-//             }
-//                  if let awayTeamImage = defaultLeagueDetailsArray[indexPath.row].away_team_logo
-//                        {
-//                      upperCell.secondTeamImage.sd_setImage(with: URL(string: awayTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-//                   }
-//
-//
-//            upperCell.dateLabel.text = defaultLeagueDetailsArray[indexPath.row].event_date
-//            upperCell.timeLabel.text = defaultLeagueDetailsArray[indexPath.row].event_time
-//            upperCell.eventName.text = defaultLeagueDetailsArray[indexPath.row].league_name
-//
-//
-//        }
-//
-//
-//
-//    }
-    func setUpperCell( upperCell:UpComingEventsCell,indexPath: IndexPath)
-    {
-    
-           
-            if let homeTeamImage = upComingEventArray?[indexPath.row].home_team_logo
-                  {
-                upperCell.firstTeamImage.sd_setImage(with: URL(string: homeTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-             }
-                  if let awayTeamImage = upComingEventArray?[indexPath.row].away_team_logo
-                        {
-                      upperCell.secondTeamImage.sd_setImage(with: URL(string: awayTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-                   }
-            
-
-            upperCell.dateLabel.text = upComingEventArray?[indexPath.row].event_date
-            upperCell.timeLabel.text = upComingEventArray?[indexPath.row].event_time
-            upperCell.eventName.text = upComingEventArray?[indexPath.row].league_name
-            
-            
-        }
-    func setLowerCell(lowerCell: TeamsCell,indexPath: IndexPath)
-    {
-        
-         if let teamImage = teamsArray?[indexPath.row].team_logo
-               {
-             lowerCell.teamLogo.sd_setImage(with: URL(string: teamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
-          }
-        lowerCell.teamName.text = teamsArray?[indexPath.row].team_name
-    }
+ 
+ 
         
         
         

@@ -176,6 +176,7 @@
 		BC700F502A1A3BE3002AD341 /* Legues */ = {
 			isa = PBXGroup;
 			children = (
+				BC71F4F02A1B6CCF001BB047 /* ViewModel */,
 				BC700F582A1A4287002AD341 /* View */,
 			);
 			path = Legues;
@@ -267,7 +268,8 @@
 			children = (
 				BC6FB2372A1BC1F400068141 /* LeaguesViewModel.swift */,
 			);
-			path = ViewModel;
+			name = ViewModel;
+			path = ../../ViewModel;
 			sourceTree = "<group>";
 		};
 		BC71F4F12A1B6CFC001BB047 /* View */ = {
@@ -357,14 +359,13 @@
 		BCEA557F2A19465300827FBD /* SportsHub */ = {
 			isa = PBXGroup;
 			children = (
+				BCEA55802A19465300827FBD /* AppDelegate.swift */,
 				BCF1E2CF2A1F9D5F0017AF79 /* Utilities */,
 				BC71F4FC2A1B7542001BB047 /* Resources */,
-				BC71F4F02A1B6CCF001BB047 /* ViewModel */,
 				BC700F602A1A5394002AD341 /* Services */,
 				BC700F5B2A1A4309002AD341 /* View */,
 				BC700F522A1A3C59002AD341 /* Model */,
 				BC700F4E2A1A3BC4002AD341 /* Modules */,
-				BCEA55802A19465300827FBD /* AppDelegate.swift */,
 				BCEA55822A19465300827FBD /* SceneDelegate.swift */,
 				BCEA55912A19465500827FBD /* Info.plist */,
 				BCEA55892A19465300827FBD /* SportsHub.xcdatamodeld */,
