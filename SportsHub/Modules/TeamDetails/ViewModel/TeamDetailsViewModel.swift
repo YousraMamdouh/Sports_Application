@@ -8,10 +8,12 @@
 import UIKit
 
 class TeamDetailsViewModel {
-    
+    var observable:Observable<Bool> = Observable(false)
     var team:TeamDetails?
     var teamPlayers:[Player]?
     
+    
+    // MARK: - dealing with netwrok
     func getFootballTeamDetails(teamId:Int,complitionHandler: @escaping ()-> Void)
     {
         APICaller.getFootballTeamDetails(teamId: teamId)
@@ -22,6 +24,7 @@ class TeamDetailsViewModel {
             complitionHandler()
         }
     }
+    
     
     
     func getTeam()-> TeamDetails
@@ -39,6 +42,15 @@ class TeamDetailsViewModel {
     
     func getPlayersCount()-> Int{
         teamPlayers?.count ?? 0
+    }
+    
+   // MARK:
+    
+    func insertTeamInDatabase(name:String, id:Int)
+    {
+        TeamsCoreData.shared.InsertTeamInDatabase(name: name, id: id)
+       
+    
     }
   
 }

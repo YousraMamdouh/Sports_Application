@@ -11,53 +11,60 @@ import SDWebImage
 class LeaguesDetailsViewController: UIViewController {
     var leagueId: Int?
     var gameName: String?
-    let viewModel = LeaguesViewModel()
+    let viewModel = LeagueDetailsViewModel()
     @IBOutlet weak var tableView: UITableView!
     
     @IBOutlet weak var bottomCollectionView: UICollectionView!
     @IBOutlet weak var topCollectionView: UICollectionView!
+    let indicator = Indicator()
     override func viewDidLoad() {
         super.viewDidLoad()
+        indicator.setUpNetworkIndicator(view: view)
         setUpTableView()
         setUpCollectionView()
+        bindingViewModel()
+        indicator.setUpNetworkIndicator(view: view)
+        indicator.startIndicator()
+        
+    }
+    
+    
+    func bindingViewModel()
+    {
+        viewModel.isLoading.bind {
+            [weak self]
+            result in
+            guard let self = self ,  let isLoading = result
+                    else
+            {
+                return
+            }
+
+            DispatchQueue.main.async {
+                if isLoading == 3
+                {
+                    self.tableView.reloadData()
+                    self.topCollectionView.reloadData()
+                    self.bottomCollectionView.reloadData()
+                    self.indicator.stopIndicator()
+                }
+            }
+
+        }
+    }
+    override func viewWillAppear(_ animated: Bool) {
         if let gameName = gameName, let leagueId = leagueId
         {
             viewModel.getUpComingEvents(sportName: gameName , leagueId: leagueId)
-            {
-                print("try")
-                DispatchQueue.main.async {
-                
-                    self.topCollectionView.reloadData()
-    
-                }
-           
-            }
             
-            viewModel.getLatestEvents(sportName: gameName, leagueId: leagueId){
-           
-    
-                DispatchQueue.main.async {
-                    self.tableView.reloadData()
-         
-                }
-            }
+            viewModel.getLatestEvents(sportName: gameName, leagueId: leagueId)
             
-            viewModel.getTeams(sportName: gameName, leagueId: leagueId) {
-           
-                
-                DispatchQueue.main.async {
-                    self.bottomCollectionView.reloadData()
-         
-                }
-                
-            }
+            viewModel.getTeams(sportName: gameName, leagueId: leagueId)
         }
         else
         {
             print("no data returned")
         }
- 
-   
     }
     func setUpTableView()
     {

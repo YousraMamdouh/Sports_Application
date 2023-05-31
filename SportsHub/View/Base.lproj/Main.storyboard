@@ -12,7 +12,7 @@
         <!--Home View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="SportsHub" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="SportsHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,23 +96,84 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adb-3y-l1K" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="910.68702290076328" y="643.66197183098598"/>
+            <point key="canvasLocation" x="895" y="799"/>
         </scene>
-        <!--Favorites-->
+        <!--Favorites View Controller-->
         <scene sceneID="Z1G-1Z-34T">
             <objects>
                 <viewController id="mwF-UC-8uc" customClass="FavoritesViewController" customModule="SportsHub" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rY3-iC-QmQ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="r9K-8T-Gyo">
+                                <rect key="frame" x="0.0" y="142" width="393" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Favorites" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5rS-XY-zW5">
+                                <rect key="frame" x="144" y="119" width="97.333333333333314" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.28051486609999998" green="0.74907410139999997" blue="0.74399965999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KoP-O0-i81" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="853" y="55" width="309" height="350"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="E6J-hk-DiW"/>
                         <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="r9K-8T-Gyo" firstAttribute="height" secondItem="rY3-iC-QmQ" secondAttribute="height" multiplier="0.874413" constant="-77.999875999999972" id="9zS-qK-diQ"/>
+                            <constraint firstItem="r9K-8T-Gyo" firstAttribute="centerY" secondItem="E6J-hk-DiW" secondAttribute="centerY" constant="39.5" id="DvK-n0-yHA"/>
+                            <constraint firstItem="5rS-XY-zW5" firstAttribute="centerX" secondItem="E6J-hk-DiW" secondAttribute="centerX" constant="-4" id="KcZ-9N-0iH"/>
+                            <constraint firstItem="5rS-XY-zW5" firstAttribute="top" secondItem="E6J-hk-DiW" secondAttribute="top" constant="16" id="X2e-75-MpM"/>
+                            <constraint firstItem="r9K-8T-Gyo" firstAttribute="centerX" secondItem="E6J-hk-DiW" secondAttribute="centerX" id="e5b-wu-oWF"/>
+                            <constraint firstItem="r9K-8T-Gyo" firstAttribute="width" secondItem="rY3-iC-QmQ" secondAttribute="width" id="fkZ-tA-V0D"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Favorites" image="heart.fill" catalog="system" id="D0Z-aY-u2S"/>
+                    <navigationItem key="navigationItem" id="L28-5D-4lq"/>
+                    <connections>
+                        <outlet property="tableView" destination="r9K-8T-Gyo" id="FPX-Db-Xpe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NPi-Uf-IBA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1907.6335877862596" y="724.64788732394368"/>
+            <point key="canvasLocation" x="2834.3511450381679" y="724.64788732394368"/>
+        </scene>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="SEs-XP-ROy">
+            <objects>
+                <viewController id="Upm-ks-KXS" customClass="SplashScreenViewController" customModule="SportsHub" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ygx-rT-veS">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8E2-ws-Vx1" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="55" y="293" width="286" height="251"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="sports"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0gj-zM-P7n"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8E2-ws-Vx1" firstAttribute="height" secondItem="Ygx-rT-veS" secondAttribute="height" multiplier="0.5223" constant="-194.00000000000006" id="ZIb-ah-nrz"/>
+                            <constraint firstItem="8E2-ws-Vx1" firstAttribute="width" secondItem="Ygx-rT-veS" secondAttribute="width" multiplier="0.793893" constant="-26" id="bFM-ry-ql1"/>
+                            <constraint firstItem="8E2-ws-Vx1" firstAttribute="centerX" secondItem="0gj-zM-P7n" secondAttribute="centerX" constant="1.5" id="hHu-gK-1hj"/>
+                            <constraint firstItem="8E2-ws-Vx1" firstAttribute="centerY" secondItem="0gj-zM-P7n" secondAttribute="centerY" constant="-20" id="vpG-73-JMR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animationView" destination="8E2-ws-Vx1" id="uHB-ea-dzu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j2p-kY-D1x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3695.419847328244" y="549.29577464788736"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="w2n-Aa-Sfs">
@@ -128,7 +189,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="XFy-PW-ChZ" kind="relationship" relationship="viewControllers" id="Hft-Rt-2rF"/>
-                        <segue destination="mwF-UC-8uc" kind="relationship" relationship="viewControllers" id="ezX-vo-2Qb"/>
+                        <segue destination="awU-P6-F1I" kind="relationship" relationship="viewControllers" id="ezX-vo-2Qb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GML-YM-emx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -450,7 +511,30 @@
             </objects>
             <point key="canvasLocation" x="-918.32061068702285" y="725.35211267605632"/>
         </scene>
+        <!--Favorites-->
+        <scene sceneID="3Rp-T9-CCY">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="65w-F8-vd2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="awU-P6-F1I" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Favorites" image="heart.fill" catalog="system" id="D0Z-aY-u2S"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Gl7-Xb-6ea">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="mwF-UC-8uc" kind="relationship" relationship="rootViewController" id="yzU-SE-GkM"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="1907.6335877862596" y="724.64788732394368"/>
+        </scene>
     </scenes>
+    <designables>
+        <designable name="8E2-ws-Vx1"/>
+        <designable name="KoP-O0-i81"/>
+    </designables>
     <resources>
         <image name="Placeholder.png" width="681" height="528"/>
         <image name="figure.disc.sports" catalog="system" width="128" height="108"/>

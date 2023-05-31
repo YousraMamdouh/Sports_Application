@@ -10,75 +10,75 @@ import SDWebImage
 
 class LeaguesTableViewController: UITableViewController {
 
-    var viewModel : LeaguesViewModel = LeaguesViewModel()
-    var response: FootballLeagues?
+    var viewModel = LeagueViewModel()
+let indicator = Indicator()
     var gameName:String?
     override func viewDidLoad() {
         super.viewDidLoad()
        
         tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
-        tableView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+      //  tableView.contentInset = UIEdgeInsets(top: 10, left: 10, bottom: 0, right: 10)
+        indicator.setUpNetworkIndicator(view: view)
+        bindingViewModel()
+        indicator.startIndicator()
+        
+    }
+    
+    func bindingViewModel()
+    {
+        viewModel.observable.bind {
+            [weak self]
+            result in
+            guard let self = self ,  let isLoading = result
+                    else
+            {
+                return
+            }
 
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        if let param = gameName
-        {
-            viewModel.getLeagues(param: param) { res in
-                
-                self.response = res
-                DispatchQueue.main.async {
+            DispatchQueue.main.async {
+                if isLoading
+                {
                     self.tableView.reloadData()
+                    self.indicator.stopIndicator()
                 }
             }
+
+        }
+    }
+
+    override func viewDidAppear(_ animated: Bool) {
+        if let param = gameName
+        {
+            viewModel.getLeagues(param: param)
+            
         }
             else
             {
                 print("error")
             }
-        
     }
-
-
 
 
     // MARK: - Table view data source
 
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 1
-    }
+  
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return response?.result?.count ?? 0
+        return viewModel.getLeaguesArrayCount()
     }
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vC = self.storyboard?.instantiateViewController(identifier: "LeaguesDetailsViewController") as! LeaguesDetailsViewController
-        vC.leagueId = response?.result?[indexPath.row].league_key
+        vC.leagueId = viewModel.getLeaagueKey(index: indexPath.row)
         vC.gameName = gameName
           self.navigationController?.pushViewController(vC, animated: true)
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! TableViewCell
-        // Configure the cell...
-        cell.leagueLabel.text = response?.result?[indexPath.row].league_name
-      //  print("look\(response?.result?[indexPath.row].league_name)")
-        if let imageURL = response?.result?[indexPath.row].league_logo
-        {
-            cell.leagueImage.sd_setImage(with: URL(string: imageURL ), placeholderImage: UIImage(named: "Placeholder.png"))
-          
-        }
-        else
-        {
-            cell.leagueImage.image = UIImage(named: "Placeholder.png")
-        }
-     
-
-        // Configure the cell...
-
+  
+        cell.configureCell(league: viewModel.getLeague(index: indexPath.row))
+ 
         return cell
     }
     

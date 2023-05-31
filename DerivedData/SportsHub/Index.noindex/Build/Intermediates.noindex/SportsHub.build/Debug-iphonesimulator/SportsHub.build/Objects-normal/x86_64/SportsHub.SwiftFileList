@@ -1,17 +1,21 @@
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Favorites/ViewModel/FavoritesViewModel.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/TeamDetails/View/TeamDetailsViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/TeamDetails/ViewModel/TeamDetailsViewModel.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Events.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/View/LeaguesDetailsViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Home/View/HomeViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/TeamDetails/View/PlayerCell.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/View/SplashScreenViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/AppDelegate.swift
-/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/ViewModel/LeaguesViewModel.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/ViewModel/LeagueDetailsViewModel.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Utilities/Alerts.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/SportDTO.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Legues/View/CustomTableCell/TableViewCell.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Leagues.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Favorites/View/FavoritesViewController.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Legues/New\ Group/LeagueViewModel.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Utilities/Indicator.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/Network.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/View/UpperCustomCell/UpComingEventsCell.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/LeaguesDetails/View/MiddleCustomCell/LatestResultTableCell.swift
@@ -19,5 +23,11 @@
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Teams.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Legues/View/LeaguesTableViewController.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/SceneDelegate.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Utilities/Observable.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Database/TeamsCoreData.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Favorites.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Utilities/Style.swift
 /Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Modules/Home/View/SportCollectionViewCell.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/Build/Intermediates.noindex/SportsHub.build/Debug-iphonesimulator/SportsHub.build/DerivedSources/CoreDataGenerated/SportsHub/FavoriteTeams+CoreDataClass.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/Build/Intermediates.noindex/SportsHub.build/Debug-iphonesimulator/SportsHub.build/DerivedSources/CoreDataGenerated/SportsHub/FavoriteTeams+CoreDataProperties.swift
+/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Index.noindex/Build/Intermediates.noindex/SportsHub.build/Debug-iphonesimulator/SportsHub.build/DerivedSources/CoreDataGenerated/SportsHub/SportsHub+CoreDataModel.swift

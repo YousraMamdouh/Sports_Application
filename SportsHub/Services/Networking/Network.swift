@@ -14,10 +14,11 @@ class Network {
 
    private let API_KEY: String = "c9a13732377d308c4f8293321d1834a5901ba3166630bbf70bf11313e0b1d05f"
     
-    private let FOOTBALL_DATE = "2022-01-23&to=2023-12-30"
-    private let BASKETBALL_DATE = "2023-01-23&to=2023-12-30"
-    private let TENNIS_DATE = "2020-05-23&to=2025-06-30"
-    private let CRICKET_DATE = "2022-01-23&to=2023-12-30"
+    private let LATEST_FOOTBALL_DATE = "2023-05-1&to=2023-5-23"
+    private let LATEST_BASKETBALL_DATE = "2023-01-23&to=2023-12-30"
+    private let LATEST_TENNIS_DATE = "2020-05-23&to=2025-06-30"
+    private let LATEST_CRICKET_DATE = "2022-01-23&to=2023-12-30"
+    private let UPCOMING_FOOTBALL_DATE = "2023-05-09&to=2024-02-09"
    private let  BASE_URL = "https://apiv2.allsportsapi.com/"
     
   
@@ -34,22 +35,23 @@ class Network {
         switch(sportName)
         {
         case "football":
-            date = FOOTBALL_DATE
+            date = UPCOMING_FOOTBALL_DATE
           
         case "basketball":
-            date = BASKETBALL_DATE
+            date = LATEST_BASKETBALL_DATE
            
         case "cricket":
-            date = CRICKET_DATE
+            date = LATEST_CRICKET_DATE
             
         case "tennis":
-            date = TENNIS_DATE
+            date = LATEST_TENNIS_DATE
            
         default:
             date = ""
    
         }
-        return "\(BASE_URL)\(sportName)/?met=Fixtures&APIkey=\(API_KEY)&from=\(date)&leagueId=\(leagueId)"
+        return "\(BASE_URL)\(sportName)/?met=Fixtures&leagueId=\(leagueId)&from=\(date)&APIkey=\(API_KEY)"
+       // return "\(BASE_URL)\(sportName)/?met=Fixtures&APIkey=\(API_KEY)&from=\(date)&leagueId=\(leagueId)"
         }
 //"https://apiv2.allsportsapi.com/tennis/?met=Fixtures&leagueId=2&from=2023-05-09&to=2024-02-09&APIkey=c9a13732377d308c4f8293321d1834a5901ba3166630bbf70bf11313e0b1d05f"
         
@@ -61,16 +63,16 @@ class Network {
         switch(sportName)
         {
         case "football":
-            date = FOOTBALL_DATE
+            date = LATEST_FOOTBALL_DATE
           
         case "basketball":
-            date = BASKETBALL_DATE
+            date = LATEST_BASKETBALL_DATE
            
         case "cricket":
-            date = CRICKET_DATE
+            date = LATEST_CRICKET_DATE
             
         case "tennis":
-            date = TENNIS_DATE
+            date = LATEST_TENNIS_DATE
            
         default:
             date = ""

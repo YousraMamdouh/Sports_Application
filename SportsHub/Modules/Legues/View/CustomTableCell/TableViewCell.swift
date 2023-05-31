@@ -34,5 +34,25 @@ class TableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configureCell(league:FootballLeague)
+    {
+       leagueLabel.text = league.league_name
+      //  print("look\(response?.result?[indexPath.row].league_name)")
+        if let imageURL = league.league_logo
+        {
+          leagueImage.sd_setImage(with: URL(string: imageURL ), placeholderImage: UIImage(named: "Placeholder.png"))
+          
+        }
+        else
+        {
+            leagueImage.image = UIImage(named: "Placeholder.png")
+        }
+    }
+    
+    func configureTeamCell(team: Favorites)
+    {
+        leagueLabel.text = team.name
+    }
+    
     
 }

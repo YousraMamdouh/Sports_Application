@@ -9,4 +9,5 @@ dependencies: \
   /Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/SDWebImage/SDWebImage/Core/SDImageCoder.h \
   /Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/SDWebImage/SDWebImage/Core/SDImageFrame.h \
   /Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h \
+  /Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/SDWebImage/SDWebImage/Core/SDAnimatedImage.h \
   /Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/SDWebImage/SDWebImage/Private/SDAssociatedObject.h

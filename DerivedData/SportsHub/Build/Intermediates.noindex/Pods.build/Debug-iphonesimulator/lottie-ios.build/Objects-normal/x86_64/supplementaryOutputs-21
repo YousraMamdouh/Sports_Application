@@ -1,80 +1,80 @@
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/LayerModel.swift":
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.d"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.swiftdeps"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.dia"
 "/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Mask.swift":
   dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Mask.d"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Mask.swiftdeps"
   object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Mask.o"
   diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Mask.dia"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Mask.swiftdeps"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Utility/Debugging/LayerDebugging.swift":
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.o"
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.dia"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.swiftdeps"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/MathKit.swift":
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.swiftdeps"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.o"
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.dia"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/KeyframeExtensions.swift":
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.swiftdeps"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.o"
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.dia"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Marker.swift":
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.swiftdeps"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.d"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.dia"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerImageProvider.swift":
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.d"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.o"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.swiftdeps"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.dia"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Public/iOS/LottieView.swift":
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.d"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.dia"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.o"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.swiftdeps"
 "/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTransformNode.swift":
   diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTransformNode.dia"
   object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTransformNode.o"
   swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTransformNode.swiftdeps"
   dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTransformNode.d"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerFontProvider.swift":
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.o"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.swiftdeps"
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.dia"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.d"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/KeyframeInterpolator.swift":
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.dia"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.d"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.swiftdeps"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift":
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.d"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.swiftdeps"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.dia"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTextProvider.swift":
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.o"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.swiftdeps"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.dia"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.d"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/KeyframeExtensions.swift":
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.dia"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.d"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeExtensions.swiftdeps"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/MathKit.swift":
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.dia"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.d"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MathKit.swiftdeps"
 "/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Public/AnimationCache/LRUAnimationCache.swift":
   dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LRUAnimationCache.d"
   diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LRUAnimationCache.dia"
   swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LRUAnimationCache.swiftdeps"
   object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LRUAnimationCache.o"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Marker.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.dia"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.swiftdeps"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/Marker.o"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Keyframes/KeyframeGroup.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.dia"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.o"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.swiftdeps"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.d"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTextProvider.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.dia"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.o"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerTextProvider.swiftdeps"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Public/iOS/LottieView.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.dia"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.d"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.o"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LottieView.swiftdeps"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/KeyframeInterpolator.swift":
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.swiftdeps"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.o"
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.dia"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeInterpolator.d"
 "/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/MaskContainerLayer.swift":
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.o"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.d"
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.dia"
   swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.swiftdeps"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.dia"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.o"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.swiftdeps"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeypathSearchable.d"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/LayerModel.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.dia"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.swiftdeps"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerModel.o"
-"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerImageProvider.swift":
-  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.dia"
-  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.o"
-  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.d"
-  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerImageProvider.swiftdeps"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.d"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/MaskContainerLayer.dia"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Model/Keyframes/KeyframeGroup.swift":
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.d"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.dia"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.swiftdeps"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/KeyframeGroup.o"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerFontProvider.swift":
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.d"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.dia"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.swiftdeps"
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerFontProvider.o"
+"/Users/yousramamdouh/Desktop/_IOS/SportsHub/Pods/lottie-ios/lottie-swift/src/Private/Utility/Debugging/LayerDebugging.swift":
+  object: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.o"
+  diagnostics: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.dia"
+  swift-dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.swiftdeps"
+  dependencies: "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/lottie-ios.build/Objects-normal/x86_64/LayerDebugging.d"

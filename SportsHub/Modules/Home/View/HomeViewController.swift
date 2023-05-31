@@ -25,12 +25,9 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-//        let inset:CGFloat = 1
-//        return UIEdgeInsets(top: inset, left: inset, bottom: inset, right: inset)
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: sportCollectionViewCellId, for: indexPath) as! SportCollectionViewCell
         cell.sportLabel.text = arrayOfSports[indexPath.row].name
         cell.sportImage.image = UIImage(named: arrayOfSports[indexPath.row].image ?? "")
-        //cell.sportImage.image = UIImage(named: "")
         return cell
     }
     func numberOfSections(in collectionView: UICollectionView) -> Int {
@@ -38,23 +35,23 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
        
-    
+    print("dost")
         switch(indexPath.row)
         {
         case 0:
         
-     navigateToTheLeagues(str: "football")
+            navigateToTheLeagues(str: Sport.football.rawValue)
         case 1:
       
-            navigateToTheLeagues(str: "basketball")
+            navigateToTheLeagues(str: Sport.basketball.rawValue)
         case 2:
           
-            navigateToTheLeagues(str: "cricket")
+            navigateToTheLeagues(str: Sport.cricket.rawValue)
         case 3:
-        navigateToTheLeagues(str: "tennis")
+            navigateToTheLeagues(str: Sport.tennis.rawValue)
      
         default:
-            print("no one")
+          return
         }
     }
     
@@ -87,7 +84,12 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
         
     }
 
-
+    enum Sport:String{
+        case football = "football"
+        case basketball = "basketball"
+        case cricket = "cricket"
+        case tennis = "tennis"
+    }
     
 }
 

@@ -258,8 +258,10 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import CoreData;
 @import CoreFoundation;
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -294,19 +296,54 @@ SWIFT_CLASS("_TtC9SportsHub11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSEntityDescription;
+@class NSManagedObjectContext;
+
+SWIFT_CLASS_NAMED("FavoriteTeams")
+@interface FavoriteTeams : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 @class NSString;
+
+@interface FavoriteTeams (SWIFT_EXTENSION(SportsHub))
+@property (nonatomic) int32_t id;
+@property (nonatomic, copy) NSString * _Nullable name;
+@end
+
+
+SWIFT_CLASS("_TtC9SportsHub9Favorites")
+@interface Favorites : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UITableView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9SportsHub23FavoritesViewController")
 @interface FavoritesViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UICollectionView;
 @class NSIndexPath;
+@class UITableViewCell;
+
+@interface FavoritesViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (NSString * _Nullable)tableView:(UITableView * _Nonnull)tableView titleForHeaderInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
+@class UICollectionView;
 @class UICollectionViewCell;
 
 SWIFT_CLASS("_TtC9SportsHub18HomeViewController")
@@ -339,7 +376,12 @@ SWIFT_CLASS("_TtC9SportsHub21LatestResultTableCell")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
+
+SWIFT_CLASS("_TtC9SportsHub15LeagueViewModel")
+@interface LeagueViewModel : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 @interface LeaguesDetailsViewController : UIViewController
@@ -347,6 +389,7 @@ SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified bottomCollectionView;
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified topCollectionView;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -371,7 +414,7 @@ SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 SWIFT_CLASS("_TtC9SportsHub26LeaguesTableViewController")
 @interface LeaguesTableViewController : UITableViewController
 - (void)viewDidLoad;
-- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (void)viewDidAppear:(BOOL)animated;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -411,6 +454,17 @@ SWIFT_CLASS("_TtC9SportsHub13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class AnimationView;
+
+SWIFT_CLASS("_TtC9SportsHub26SplashScreenViewController")
+@interface SplashScreenViewController : UIViewController
+@property (nonatomic, weak) IBOutlet AnimationView * _Null_unspecified animationView;
+- (void)viewDidLoad;
+- (void)changeVc;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC9SportsHub23SportCollectionViewCell")
 @interface SportCollectionViewCell : UICollectionViewCell
@@ -438,11 +492,13 @@ SWIFT_CLASS("_TtC9SportsHub13TableViewCell")
 SWIFT_CLASS("_TtC9SportsHub25TeamDetailsViewController")
 @interface TeamDetailsViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified collectionView;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified addToFavoritesBtn;
 - (IBAction)addToFavoritesButton:(UIButton * _Nonnull)sender;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified teamName;
 @property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified teamImage;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified coach;
 - (void)viewDidLoad;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
