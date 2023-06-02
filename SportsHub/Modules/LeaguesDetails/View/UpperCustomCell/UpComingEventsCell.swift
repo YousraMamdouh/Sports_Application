@@ -13,8 +13,8 @@ class UpComingEventsCell: UICollectionViewCell {
         super.awakeFromNib()
         // Initialization code
         contentView.translatesAutoresizingMaskIntoConstraints = false
-   setImageStyle(image: firstTeamImage)
-        setImageStyle(image: secondTeamImage)
+     setImageStyle(image: firstTeamImage)
+    setImageStyle(image: secondTeamImage)
     }
   
     func configureCell( event: Event)

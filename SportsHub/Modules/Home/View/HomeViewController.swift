@@ -14,7 +14,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
 //    let cricket = SportDTO(name: "Cricket", image: "cricket.png")
 //    let tennis = SportDTO(name: "Tennis", image: "tennis.png")
     
-    let arrayOfSports : [SportDTO] = [SportDTO(name: "Football", image: "Football.png"),SportDTO(name: "Basketball", image: "Basketball.png"),SportDTO(name: "Cricket", image: "Cricket.png"),SportDTO(name: "Tennis", image: "Tennis.png")]
+    let arrayOfSports : [SportDTO] = [SportDTO(name: "Football", image: "Football"),SportDTO(name: "Basketball", image: "Basketball"),SportDTO(name: "Cricket", image: "Cricket"),SportDTO(name: "Tennis", image: "Tennis")]
     
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -34,8 +34,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
         return 1
     }
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-       
-    print("dost")
+  
         switch(indexPath.row)
         {
         case 0:
@@ -60,6 +59,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
         let vC = self.storyboard?.instantiateViewController(identifier: "LeaguesTableViewController") as! LeaguesTableViewController
         vC.gameName = str
           self.navigationController?.pushViewController(vC, animated: true)
+        
+        
     }
 
     @IBOutlet weak var sportsCollectionView: UICollectionView!
@@ -67,11 +68,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegate , UICollect
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("Hello")
+
         let nibCell = UINib(nibName: sportCollectionViewCellId, bundle: nil)
         sportsCollectionView.register(nibCell, forCellWithReuseIdentifier: sportCollectionViewCellId)
         
-        
+       // self.navigationItem.rightBarButtonItem?.isHidden = true 
 //        animation.contentMode = .scaleAspectFit
 //        animation.loopMode = .loop
 //        animation.play()

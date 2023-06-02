@@ -319,12 +319,14 @@ SWIFT_CLASS("_TtC9SportsHub9Favorites")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+@class AnimationView;
 @class UITableView;
 @class NSBundle;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC9SportsHub23FavoritesViewController")
 @interface FavoritesViewController : UIViewController
+@property (nonatomic, weak) IBOutlet AnimationView * _Null_unspecified animationView;
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
 - (void)viewDidLoad;
 - (void)viewDidAppear:(BOOL)animated;
@@ -410,18 +412,30 @@ SWIFT_CLASS("_TtC9SportsHub28LeaguesDetailsViewController")
 - (CGSize)collectionView:(UICollectionView * _Nonnull)collectionView layout:(UICollectionViewLayout * _Nonnull)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
+@class UISearchBar;
 
 SWIFT_CLASS("_TtC9SportsHub26LeaguesTableViewController")
-@interface LeaguesTableViewController : UITableViewController
+@interface LeaguesTableViewController : UIViewController
+@property (nonatomic, weak) IBOutlet AnimationView * _Null_unspecified animationView;
+@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified tableView;
+@property (nonatomic, weak) IBOutlet UISearchBar * _Null_unspecified searchBar;
 - (void)viewDidLoad;
-- (void)viewDidAppear:(BOOL)animated;
-- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
-- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (void)viewWillAppear:(BOOL)animated;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface LeaguesTableViewController (SWIFT_EXTENSION(SportsHub)) <UISearchBarDelegate>
+- (void)searchBar:(UISearchBar * _Nonnull)searchBar textDidChange:(NSString * _Nonnull)searchText;
+@end
+
+
+@interface LeaguesTableViewController (SWIFT_EXTENSION(SportsHub)) <UITableViewDataSource, UITableViewDelegate>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (CGFloat)tableView:(UITableView * _Nonnull)tableView heightForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIView;
@@ -454,13 +468,11 @@ SWIFT_CLASS("_TtC9SportsHub13SceneDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class AnimationView;
 
 SWIFT_CLASS("_TtC9SportsHub26SplashScreenViewController")
 @interface SplashScreenViewController : UIViewController
 @property (nonatomic, weak) IBOutlet AnimationView * _Null_unspecified animationView;
 - (void)viewDidLoad;
-- (void)changeVc;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -518,6 +530,7 @@ SWIFT_CLASS("_TtC9SportsHub9TeamsCell")
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
 
 
 

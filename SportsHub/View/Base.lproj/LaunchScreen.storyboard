@@ -15,16 +15,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launch" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KPb-Ww-Kd0">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="L3g-0W-h8Y">
+                                <rect key="frame" x="63.666666666666657" y="367" width="266" height="143"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="𝚂𝚙𝚘𝚛𝚝𝚜𝙷𝚞𝚋" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mq0-ZF-Pq9">
+                                <rect key="frame" x="121.66666666666669" y="530" width="150" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lo2-Ds-Izl"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KPb-Ww-Kd0" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="0mW-aP-Uzy"/>
+                            <constraint firstItem="L3g-0W-h8Y" firstAttribute="centerY" secondItem="Lo2-Ds-Izl" secondAttribute="centerY" id="6Cb-jT-RvX"/>
+                            <constraint firstItem="KPb-Ww-Kd0" firstAttribute="centerX" secondItem="Lo2-Ds-Izl" secondAttribute="centerX" id="9XC-4X-zj8"/>
+                            <constraint firstItem="KPb-Ww-Kd0" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="H97-Fq-AWM"/>
+                            <constraint firstItem="mq0-ZF-Pq9" firstAttribute="width" secondItem="L3g-0W-h8Y" secondAttribute="width" multiplier="0.56391" id="Mgm-VJ-474"/>
+                            <constraint firstItem="KPb-Ww-Kd0" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="MkY-zf-38n"/>
+                            <constraint firstItem="mq0-ZF-Pq9" firstAttribute="top" secondItem="L3g-0W-h8Y" secondAttribute="bottom" constant="20" id="R0F-9j-fbb"/>
+                            <constraint firstItem="mq0-ZF-Pq9" firstAttribute="centerX" secondItem="L3g-0W-h8Y" secondAttribute="centerX" id="W4i-Qd-CE0"/>
+                            <constraint firstItem="L3g-0W-h8Y" firstAttribute="width" secondItem="KPb-Ww-Kd0" secondAttribute="width" multiplier="0.676845" id="a8d-hV-qGO"/>
+                            <constraint firstItem="L3g-0W-h8Y" firstAttribute="height" secondItem="KPb-Ww-Kd0" secondAttribute="height" multiplier="0.16784" id="bYq-6r-MJK"/>
+                            <constraint firstItem="mq0-ZF-Pq9" firstAttribute="height" secondItem="L3g-0W-h8Y" secondAttribute="height" multiplier="0.251748" id="rI3-Y4-7sF"/>
+                            <constraint firstItem="L3g-0W-h8Y" firstAttribute="centerX" secondItem="KPb-Ww-Kd0" secondAttribute="centerX" id="w0A-Ur-olh"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
         </scene>
     </scenes>
     <resources>
+        <image name="launch" width="426" height="837"/>
+        <image name="logo" width="893" height="262"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

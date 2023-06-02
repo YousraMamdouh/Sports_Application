@@ -19,12 +19,15 @@ class LeaguesDetailsViewController: UIViewController {
     let indicator = Indicator()
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("id = \(leagueId) name = \(gameName)")
+       changeBackButtonColorToBlue(for: self)
         indicator.setUpNetworkIndicator(view: view)
         setUpTableView()
         setUpCollectionView()
         bindingViewModel()
         indicator.setUpNetworkIndicator(view: view)
         indicator.startIndicator()
+       
         
     }
     
@@ -41,7 +44,7 @@ class LeaguesDetailsViewController: UIViewController {
             }
 
             DispatchQueue.main.async {
-                if isLoading == 3
+                if isLoading == 2 && self.gameName == "tennis"  || isLoading == 3
                 {
                     self.tableView.reloadData()
                     self.topCollectionView.reloadData()
@@ -59,7 +62,7 @@ class LeaguesDetailsViewController: UIViewController {
             
             viewModel.getLatestEvents(sportName: gameName, leagueId: leagueId)
             
-            viewModel.getTeams(sportName: gameName, leagueId: leagueId)
+        viewModel.getTeams(sportName: gameName, leagueId: leagueId)
         }
         else
         {

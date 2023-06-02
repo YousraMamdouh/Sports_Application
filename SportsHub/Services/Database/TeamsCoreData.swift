@@ -59,7 +59,7 @@ class TeamsCoreData {
     {
      
       //  print("wsalt el database ahhoh")
-        let fetchReq = NSFetchRequest<NSManagedObject>(entityName: "FavoriteTeams")
+      //  let fetchReq = NSFetchRequest<NSManagedObject>(entityName: "FavoriteTeams")
 //                guard let entity= NSEntityDescription.entity(forEntityName: "FavoriteTeams", in: context) else{return}
                 let team = getEntity()
                 

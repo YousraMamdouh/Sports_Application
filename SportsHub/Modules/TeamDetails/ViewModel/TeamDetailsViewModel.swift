@@ -15,12 +15,13 @@ class TeamDetailsViewModel {
     
     // MARK: - dealing with netwrok
     func getFootballTeamDetails(teamId:Int,complitionHandler: @escaping ()-> Void)
-    {
+    {observable.value = false
         APICaller.getFootballTeamDetails(teamId: teamId)
         {
             result in
             self.team = result.result?[0]
             self.teamPlayers = result.result?[0].players
+            self.observable.value = true
             complitionHandler()
         }
     }

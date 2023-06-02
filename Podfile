@@ -17,8 +17,7 @@ target 'SportsHub' do
   end
 pod 'lottie-ios'
 pod 'SDWebImage', '~> 5.0'
-
-
+pod 'ReachabilitySwift'
 
 
 end

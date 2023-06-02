@@ -20,17 +20,25 @@ class SplashScreenViewController: UIViewController {
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop
         animationView.play()
-        Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeVc),userInfo: nil,repeats: false)
+        
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
+            self.performSegue(withIdentifier: "navigateToHome", sender: nil)
+        }
+//        Timer.scheduledTimer(timeInterval: 5, target: self, selector: #selector(changeVc),userInfo: nil,repeats: false)
+        // Add a delay of 2 seconds before transitioning to the navigation controller
+//            DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+//                self.transitionToMainContent()
+//            }
         // Do any additional setup after loading the view.
     }
     
-    @objc func changeVc()
-    {
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vC = storyboard.instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
-        vC.modalPresentationStyle = .fullScreen
-        self.present(vC,animated: true)
-    }
+
+//   @objc func transitionToMainContent() {
+//        // Instantiate the navigation controller and set it as the window's root view controller
+//        let navigationController = UINavigationController(rootViewController:SplashScreenViewController())
+//        UIApplication.shared.windows.first?.rootViewController = navigationController
+//        UIApplication.shared.windows.first?.makeKeyAndVisible()
+//    }
     /*
     // MARK: - Navigation
 

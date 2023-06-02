@@ -6,10 +6,10 @@
 //
 
 import UIKit
-enum NetworkError:Error
-{
-    
-}
+//enum NetworkError:Error
+//{
+//    
+//}
 class APICaller {
     static func getLeagues(param:String,complitionHandler: @escaping (FootballLeagues?)-> Void)
     {
@@ -92,17 +92,22 @@ class APICaller {
             
                           guard let data = data else
                           {
+                        
+                  
                             return
                           }
                           do{
+                              
                               let result = try JSONDecoder().decode(Events.self, from: data)
-                              //print(result.result?[3].league_name ?? "No Title")
+                      
+                  
                       
                               complitionHandler(result)
                           }
                           catch let error{
-            
-                              print(error.localizedDescription)
+           
+                              print(String(describing: error))
+                        
                             //  complitionHandler(nil)
                               }
             
@@ -163,7 +168,7 @@ class APICaller {
                       do{
                           let result = try JSONDecoder().decode(FootballTeam.self, from: data)
                           //print(result.result?[3].league_name ?? "No Title")
-                          print("bndawar 3la:\(result.result?[0].players?[0].player_name)")
+                        //  print("bndawar 3la:\(result.result?[0].players?[0].player_name)")
                           complitionHandler(result)
                           
                       }

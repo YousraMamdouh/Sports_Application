@@ -6,21 +6,50 @@
 //
 
 import UIKit
+import Reachability
+import Lottie
 
 class FavoritesViewController: UIViewController {
 
+    @IBOutlet weak var animationView: AnimationView!
     @IBOutlet weak var tableView: UITableView!
-    
+    let reachability = try! Reachability()
     let viewModel = FavoritesViewModel()
     override func viewDidLoad() {
         super.viewDidLoad()
    setUPTableView()
+   changeBackButtonColorToBlue(for: self)
+        try! reachability.startNotifier()
+      //  animationView.isHidden = true
+  checkFavoritesIfEmpty()
+     
     }
+    func checkFavoritesIfEmpty()
+    {
+        if viewModel.isFavoritesEmpty()
+        {
+            animationView.isHidden = false
+            tableView.isHidden = true
+            animationView.contentMode = .scaleAspectFit
+            animationView.loopMode = .loop
+            animationView.play()
+        }
+        else
+        {
+            
+            animationView.isHidden = true
+            animationView.stop()
+            tableView.isHidden = false
+        }
+    }
+
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         bindingViewModel()
         viewModel.getFavoriteTeamsFromDatabase()
+        checkFavoritesIfEmpty()
+        
        
     }
 
@@ -79,6 +108,7 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource
             let confirmAction = UIAlertAction(title: "Yes", style: .default) { _ in
                 self.viewModel.deleteTeamFromDatabase(index: indexPath.row)
                 self.tableView.deleteRows(at: [indexPath], with: .fade)
+                self.checkFavoritesIfEmpty()
           
             }
             let cancelationAction = UIAlertAction(title: "No", style: .default) { _ in
@@ -102,8 +132,21 @@ extension FavoritesViewController: UITableViewDelegate, UITableViewDataSource
         return "Teams"
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let vC = self.storyboard?.instantiateViewController(identifier: "TeamDetailsViewController") as! TeamDetailsViewController
-        vC.teamId = viewModel.getTeamId(index: indexPath.row)
-        self.navigationController?.pushViewController(vC, animated: true)
+        
+        switch reachability.connection {
+        case .wifi, .cellular:
+            print("Internet connection is available.")
+            let vC = self.storyboard?.instantiateViewController(identifier: "TeamDetailsViewController") as! TeamDetailsViewController
+            vC.teamId = viewModel.getTeamId(index: indexPath.row)
+            self.navigationController?.pushViewController(vC, animated: true)
+        case .unavailable:
+            print("Internet connection is unavailable.")
+            
+       Alerts.makeConfirmationDialogue(message: "Please check your internet connection to be able to view details")
+            
+        case .none:
+            print("no internet")
+        }
+ 
     }
 }

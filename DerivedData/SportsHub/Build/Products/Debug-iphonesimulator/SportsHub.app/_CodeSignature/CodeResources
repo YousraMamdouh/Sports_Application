@@ -4,13 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		KCKHKTk16q1hdFFEp7flHA8N4gA=
+		</data>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<data>
+		SlwzCNm1+jLX+Yg3vY9vTjwofVw=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		jWC5dcvDwSSrMNsu2vF24aCOPNA=
+		DmFqIabeyxHMo4niAcIiHR9l1Ok=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		BH9AJkdiekadcoRaub+q4C7+Ydo=
+		5aarkhXteLmHJH/TCduhNjGRJmg=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -22,15 +30,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		riBMtT8ZBPKoEYfP6NE7h2cjUWw=
+		vpwpTZUVyVVr1t3wfEFncr7mlwM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/HomeViewController.nib</key>
 		<data>
-		Y+tNWg89K5vTtmO8SnUELlPbi9k=
+		FPpI342h9N8VMz1YHpsgPmsPsAs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
-		TJgoBrDb+FepiXuRmJZHAdOqDxE=
+		sdZQi9LPxh90xWxnxUNzqx1kKk4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/LeaguesDetailsViewController.nib</key>
 		<data>
@@ -38,59 +46,175 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/LeaguesTableViewController.nib</key>
 		<data>
-		/wsW8LMjGl5HGc7sdVpKkreY/GY=
+		kNWdcl/eF4gynOwLOFvyZsK7rRQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Sm6-Yh-ITQ-view-vzL-ws-W8L.nib</key>
 		<data>
-		rF3eq4RoSZ1r/j9EiW73nsRnh0A=
+		Fu6iJ/HHbXSHrld8nqShgnZjWIM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TeamDetailsViewController.nib</key>
 		<data>
 		D2IVZPkz/Ya6fibvCk60SQ+PzwQ=
 		</data>
-		<key>Base.lproj/Main.storyboardc/UITabBarController-sUJ-om-EvL.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-XFy-PW-ChZ.nib</key>
 		<data>
-		s7J2rRYaw0VgPM/j09tLi+aFGMs=
-		</data>
-		<key>Base.lproj/Main.storyboardc/bXn-gb-Wer-view-OqQ-4S-oWR.nib</key>
-		<data>
-		gukRFv2DkUVouU5vCJdHlZRb0bc=
+		4sky9Jg4AXnu3M6fcx87xgfcPV8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/jQx-7q-nH2-view-KaX-yg-JCD.nib</key>
 		<data>
 		/QLZjt2prKozsSLTeaHRrFqtXVI=
 		</data>
+		<key>Base.lproj/Main.storyboardc/k8r-N7-CHA-view-oMG-bc-mVB.nib</key>
+		<data>
+		UpwDvgl6B0ynSM4Ytix3uuoxC/c=
+		</data>
 		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
 		<data>
-		1Axh3UAlKOGQLZPxZflmtJzpvM8=
+		YqaoSqxPXjwyl4Ai7jrLo/ubNqM=
 		</data>
 		<key>Frameworks/Lottie.framework/Info.plist</key>
 		<data>
-		CbfQc2+M8qfhxLQ0r/+R16m4nbA=
+		R2BSunLdsICGk91MyyfqBwI3024=
 		</data>
 		<key>Frameworks/Lottie.framework/Lottie</key>
 		<data>
-		WG4csR0E6eKU35GKXHBJsYivz4Q=
+		Ao64u1y2kLYlsvknoNu8WB0CZv0=
 		</data>
 		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
 		<data>
-		0IbvI0JOqyyKcJxSk5wQWhIoSJU=
+		TE7bOkgGIY8B4N5/gHbwvI1SQ58=
+		</data>
+		<key>Frameworks/Reachability.framework/Info.plist</key>
+		<data>
+		r0DlbVa6bV1CrTzyRLbrKfKYLMw=
+		</data>
+		<key>Frameworks/Reachability.framework/Reachability</key>
+		<data>
+		PXwlec+c6h6lECN/Ym0XNmdvgWk=
+		</data>
+		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
+		<data>
+		RRGGZU8+4M5rdPngyoDzCpdgzzI=
 		</data>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<data>
-		RRoomdp87hYfq/PENTIIOYb/8ks=
+		oF32rOEAi7/JWjRQb7A9LxBCv3A=
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		Smk+6EfWHuS8tOx2bAaxNKUNlLY=
+		4JygIvui3mV/qLTCX66ctsz5gXQ=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
-		fK9JWiErJgHihMM2wfLs1w3nGow=
+		FOjhK07JKRwtnPXoef1kRNCQQEc=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<data>
+		nP8w5pE2jlYcgt1g4x9oo3LF3m4=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<data>
+		mfit0MZEXMNMxxu8YY6Oze51BEs=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		d843MQR6HKNYk6UPnSolYv9WVMY=
+		</data>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<data>
+		yOpt1ysg9ubOUBblwk3c1UQvqpM=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		NuQf53AOBqE8Mj2Wu/5F5HAbH5k=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		77pyAMV1mITmgv6MqWOG2INayfs=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		lXR0LhpM+s8nkdG1iwAxWDWlK0c=
+		</data>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		yOpt1ysg9ubOUBblwk3c1UQvqpM=
+		</data>
+		<key>Frameworks/XCTestCore.framework/Info.plist</key>
+		<data>
+		1ElVHyTdI+N6EoOQaUfjuxECabM=
+		</data>
+		<key>Frameworks/XCTestCore.framework/XCTestCore</key>
+		<data>
+		6IVeZsefUMI74KW8W9NoKfiKWPU=
+		</data>
+		<key>Frameworks/XCTestCore.framework/_CodeSignature/CodeResources</key>
+		<data>
+		c5ap8T5Y43zgxtxKWvo16XQnYTE=
+		</data>
+		<key>Frameworks/XCTestCore.framework/version.plist</key>
+		<data>
+		yOpt1ysg9ubOUBblwk3c1UQvqpM=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/Info.plist</key>
+		<data>
+		6IJ95gUgxfDE3nU4nr+jdX6VkiM=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/XCTestSupport</key>
+		<data>
+		SSuOq9bFRDCVcga+TLvtMXSELqU=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/_CodeSignature/CodeResources</key>
+		<data>
+		7qO79UBCfSqgi8GjkoZjGp9g9wE=
+		</data>
+		<key>Frameworks/XCTestSupport.framework/version.plist</key>
+		<data>
+		yOpt1ysg9ubOUBblwk3c1UQvqpM=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/Info.plist</key>
+		<data>
+		216oJtbbJYCTyhga6GewEQIVExw=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/XCUIAutomation</key>
+		<data>
+		tTqmAJUHZ5z5FQwDXCXq8d/7T9g=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		UHweZHLI5zjPwNDXkz/Od2K3i20=
+		</data>
+		<key>Frameworks/XCUIAutomation.framework/version.plist</key>
+		<data>
+		yOpt1ysg9ubOUBblwk3c1UQvqpM=
+		</data>
+		<key>Frameworks/XCUnit.framework/Info.plist</key>
+		<data>
+		h9llbgAhkU+RZq/hdYSLxQ2BuSM=
+		</data>
+		<key>Frameworks/XCUnit.framework/XCUnit</key>
+		<data>
+		+j5fomS4zndlj/0Xhff3cDaq2Q0=
+		</data>
+		<key>Frameworks/XCUnit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2CEIS3na7w3NVYGQz5TtJuU43U8=
+		</data>
+		<key>Frameworks/XCUnit.framework/version.plist</key>
+		<data>
+		yOpt1ysg9ubOUBblwk3c1UQvqpM=
+		</data>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<data>
+		iKwGGv1hmIfadXlvieNrn3e8jWY=
+		</data>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<data>
+		DxOLuEKpAv5Q0SCIuwjptdJZAxM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		5RgaIL0eo09KPE81Lc2LhUoP9Wo=
+		OIyUADb1wLevAbjGznX1y0d7rPY=
 		</data>
 		<key>LatestResultTableCell.nib</key>
 		<data>
@@ -104,9 +228,29 @@
 		<data>
 		uwp3bCq4jgJ8x/ylN/ALxO9VzzU=
 		</data>
+		<key>PlugIns/SportsHubTests.xctest/Info.plist</key>
+		<data>
+		WzR2Gwd9y2ugwMSDholWYWBFf9g=
+		</data>
+		<key>PlugIns/SportsHubTests.xctest/Leagues.json</key>
+		<data>
+		m9Lg+lD85ujYDdC/yu2zi8pN6xk=
+		</data>
+		<key>PlugIns/SportsHubTests.xctest/SportsHubTests</key>
+		<data>
+		n1v8yQ8ivNd0ZxbF1UWYvHEnmfo=
+		</data>
+		<key>PlugIns/SportsHubTests.xctest/UpComingEvents.json</key>
+		<data>
+		KS04R57uDq53mEjDGJJIzN0HFN4=
+		</data>
+		<key>PlugIns/SportsHubTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		+izt2jwNMQb7BAEXmoNDi+78/EE=
+		</data>
 		<key>SportCollectionViewCell.nib</key>
 		<data>
-		uTuvi/d+w1PEnY3+gYO7qWh/r0M=
+		xkpXDLsLAUqjRVwoUwltTkj78lU=
 		</data>
 		<key>SportsHub.momd/SportsHub.mom</key>
 		<data>
@@ -128,6 +272,14 @@
 		<data>
 		m86ezW6qlnMWZV+2koorOo28W/I=
 		</data>
+		<key>empty.json</key>
+		<data>
+		eB816f5cIg8mXkw8lMlnQ7w0L2Y=
+		</data>
+		<key>internet.json</key>
+		<data>
+		JW5SMcDm3BTmmlcU+a5YrrIWWz8=
+		</data>
 		<key>sports.json</key>
 		<data>
 		cpaHAkVhYRZ3066L8tx4G6ZRmHo=
@@ -135,18 +287,32 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4Jnf6J2yietLgYZqtN6AbK7AvZwwvPn61zcPRUeBQ5o=
+			</data>
+		</dict>
+		<key>AppIcon76x76@2x~ipad.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jwZHDYzUfJ7Ov0mObliROexl4Lf9GM0mH+sBzrolPn0=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GWXSRM33ket3+SBKQ6sv/g9ZQ9eANQCcIqyfu+kGAbQ=
+			KlrnWCDCXMO2wixNuWc/YSutk53BJIQdyq0FmeGun4I=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VlmO+y0PiHTA+cGxA8TVe7idWLp9bq65rAnllmeLGyk=
+			d3UwrXMCTZJpahYEAhbZAZEF8crS5jXroDgWRMhGoec=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -167,21 +333,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0cYLoH5946kVxsIF5baj3rHtfGAMPUSgOPDnPTrUJwU=
+			d1rNRGo2j9rST4KxSOALnoAsHlNtLp2jB6huGbZJXQg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/HomeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tDCLEe8AL+D0W3N7yOOsVpZgkCtv+tc5KbrtuotF1Dw=
+			6CiP1L8/iGgFP3KXAu6g35qo4rcjntAF4HZFfrbAzO4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zvvmIfARV99iFAuFB9tvaWxCmIj2+P53jfV3RId/3wA=
+			hnaMrEG2MxD7yNPb6VXl3VM6iYV3v66rWxOW8kLk51k=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/LeaguesDetailsViewController.nib</key>
@@ -195,14 +361,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UaO2uotpdnJC4k5yBZe2ecA9MNMN2ubnMm5dawIxyY8=
+			aiTmYQ9qFwMFaz9l2hXt8ghQqmVDJ5dQenGswKHKdfo=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Sm6-Yh-ITQ-view-vzL-ws-W8L.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IgULh1oJzXV6uu4rJcJESIaNaTQlMmdimEH8zlJLdss=
+			IgCn8+0bqnQIfBZwdx/h0cxqqFv5erLtIj0Q1j4ag7Y=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TeamDetailsViewController.nib</key>
@@ -212,18 +378,11 @@
 			UYOHvtYDh1MLtDis/eWAGCXfE0QW9Kb8o57wl+xA7HE=
 			</data>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UITabBarController-sUJ-om-EvL.nib</key>
+		<key>Base.lproj/Main.storyboardc/UINavigationController-XFy-PW-ChZ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zxBNytZXTrKFmIePXgwEv/lu8FNtQtaNCz/D616LFk0=
-			</data>
-		</dict>
-		<key>Base.lproj/Main.storyboardc/bXn-gb-Wer-view-OqQ-4S-oWR.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bdX1rbZzyc5JL/RmdTjC/blpS6EPgRjcBgFYSh00NNw=
+			EmG2qnYzul6qfgbF389Ga0tN6X0A4zjZc58ZYTTAzP4=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/jQx-7q-nH2-view-KaX-yg-JCD.nib</key>
@@ -233,53 +392,263 @@
 			jACxq6YTlj08L+OB0Uw8/y8DLA7e5VDudl6l9lF3VUU=
 			</data>
 		</dict>
+		<key>Base.lproj/Main.storyboardc/k8r-N7-CHA-view-oMG-bc-mVB.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZYRwFvapDTXI+NKxmmFdf6ZybQUlklIKR1lcv8WXnXk=
+			</data>
+		</dict>
 		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			moViCBsyAOO+WB60TZC0IAiqkunk9LInG4qSbu/T+I0=
+			Ms0DB6M8D55Z7BCSUwzCzJqw5a00EHqudJnKeIVhRwQ=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			71WevJyrNS2O5nuRXTEsHMt7RpTVdPnN46d5h4h1hFc=
+			Y2aq8luUgR53Iq79XkbcYxa+KdL4Vef5sO9LpCHdNW8=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/Lottie</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a3ZJ2vXRfOh/MFaFeCFvqPEacWCsoMQZCgHTZI40Ae8=
+			i/2QZQypND5s6c0pcq7ImHJOzJOFs8RnMZiFC1N00tM=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			W0NeoRRJpRfFPIQozz1p5KDwoFE0HkeYCRpxoDL0BzE=
+			ABrhxdN6uar0/OhMqbDE78W0dOK6cGKPsWHRNcsMGjY=
+			</data>
+		</dict>
+		<key>Frameworks/Reachability.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Oo/KsFEUxiSzjNeZQoQkK7rXOg+QwvsyIQUO60HmcD8=
+			</data>
+		</dict>
+		<key>Frameworks/Reachability.framework/Reachability</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			iboGR2bkISx3eyVgTipAIKe4Nw4rThNaACMmgJCu1bk=
+			</data>
+		</dict>
+		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RFFnlgwg7WHjJYwpRo70LYHFs6EbBpqwkYhJASniXX0=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eh1aaZXz3rpoOIBIOKj5WUgMLht0VFAYbq0UMUFXbN0=
+			beh9rw4/+ClWX9/ZNXuI+ZMDfH5KTqJHmAzY9ibqDMU=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjLnKq5SFreUN+YhC/mZbeyyjV0vU1cbRWAlk+e3+0g=
+			rRecdA45Fhz6A1SjKY0ASHRLTFfEI75nwoWErDAl64s=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YKrqJExfZburGUPBjDdescpyzh5rMtz18qPW8Au5ZEk=
+			++nMK+xGgQIfZy4J6Y5yjDf4brQKTyYlLygn/LtSJ0s=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m1rWFWpfD5aDEe7tiGdAqAvgJVoEkXkcWN1JcOf628g=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/XCTAutomationSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			//GfFjUuZCTOK+A4ROZMnFXQRM+uaNj86hnuiDBBm+Q=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e2HBQK764qfljoeoR17+sb5LSjDK+qJgXkLeIjogczQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTAutomationSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bquqMt+mGXWhW+zCdHpr8/JEk7ILBIEgUReN+uLD+Zs=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q91vHl0h5SS5MPCfOzo4gf12hUd7WpiFRTwQgIPVl1s=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n6dvWdoDmLgD52wlh+wD02wZRTra+KCJPoHgZ62qA6w=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1N+Vgohc6JZVTEsbJeOcspq8oA+KXawP0yWdlo7cwgs=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bquqMt+mGXWhW+zCdHpr8/JEk7ILBIEgUReN+uLD+Zs=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3wHj029+l+8saCYYZf+LEsiNqmkMJVLJIw3om6Gau+w=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/XCTestCore</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ORmRDcqpV8QDgtCrzC2q8ZL0I59ZE8NDcjGxPaC/E7c=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Rx+eTqMRUEUfCbJ5BzN0LQXJSO/a2LiOanX7hPc1hWc=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestCore.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bquqMt+mGXWhW+zCdHpr8/JEk7ILBIEgUReN+uLD+Zs=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BDzeu0X6k9clxKJhCNwWioGs4NBnrb/2hxlEnm913Dw=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/XCTestSupport</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xAtC811ZK3Pm1g3lKgGxsBo0m0+1G6daWBRYYL0A+Co=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			E4iBrYGF/SgHTSdfaawOf7Zx/EQ4LwPHn6JvGydXLpU=
+			</data>
+		</dict>
+		<key>Frameworks/XCTestSupport.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bquqMt+mGXWhW+zCdHpr8/JEk7ILBIEgUReN+uLD+Zs=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QTaS5K+XAIsfb9VRiowpvyNEOxDTX/XVHEkzHePpgYQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/XCUIAutomation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WLay0Ls9JfP40VC9bqhSOxNzUAkfWUaLOLYfoZa4Ays=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YhSEc74BubBs1uopuTeExCxUNCSG8ycu0sLE/3vXxcQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCUIAutomation.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bquqMt+mGXWhW+zCdHpr8/JEk7ILBIEgUReN+uLD+Zs=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			n4XzjVxvz6umDASnh4tXkeBxAnUGWDaz6Hh/NqJnPTw=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/XCUnit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			abMZY01NAY5RcXxHJUXWrkQ86hYwR2LY6KD3sHxb4ns=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WsE5MsUlBWFxlDrcS8ggomhw/j1XndhTKXuiCF4Q1mc=
+			</data>
+		</dict>
+		<key>Frameworks/XCUnit.framework/version.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bquqMt+mGXWhW+zCdHpr8/JEk7ILBIEgUReN+uLD+Zs=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestBundleInject.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ym8/Xj05HqFr7Nt+M8nW4cEfYMY2WUMuiXTgX7uUgQw=
+			</data>
+		</dict>
+		<key>Frameworks/libXCTestSwiftSupport.dylib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ENiyavfEcWBvDrwPUe9H1HM5yDAwpKAZq12O02WVReU=
 			</data>
 		</dict>
 		<key>LatestResultTableCell.nib</key>
@@ -296,11 +665,46 @@
 			3R1dQO435/LbUt+IVLokSF8V0Xl103JK8DsA0cnbu9Q=
 			</data>
 		</dict>
+		<key>PlugIns/SportsHubTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rONiqOeloAIJ3O7E/i8+oTrzAKv7y0sOGTKxlZXvdqc=
+			</data>
+		</dict>
+		<key>PlugIns/SportsHubTests.xctest/Leagues.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pe/LGWD3bcPlDDwxiKUSbKjPhirHrB1cG6a5NlxM2jA=
+			</data>
+		</dict>
+		<key>PlugIns/SportsHubTests.xctest/SportsHubTests</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2ZgTqHdBU3yog3Zif5hVtzjZ/WrREpNoHDcfNG3PbrQ=
+			</data>
+		</dict>
+		<key>PlugIns/SportsHubTests.xctest/UpComingEvents.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3SULx2Ukw6wA0VQ9vZFlycOesf8VBz3IbeW34MQ/0D8=
+			</data>
+		</dict>
+		<key>PlugIns/SportsHubTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HksNHimv7yBaicZ7sAWFit1Kt7/Nycyrsca/ojhK8mQ=
+			</data>
+		</dict>
 		<key>SportCollectionViewCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aVdOwhWt4TYzfHrxYio4SG2nmgwWNtsD22l4XxLbxNU=
+			H4ypPI9jXKNBCp6/2UNgBSHC56auvYj4TgB6jVRDnE4=
 			</data>
 		</dict>
 		<key>SportsHub.momd/SportsHub.mom</key>
@@ -336,6 +740,20 @@
 			<key>hash2</key>
 			<data>
 			cYBwjdrkZpDVktyFTRHVhQRo+HwAhI0CWYXOsy+HUGA=
+			</data>
+		</dict>
+		<key>empty.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EoEuEFkzu1CbOhi4u8Pgye43zL6ouWvkuFooCqqyNgg=
+			</data>
+		</dict>
+		<key>internet.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1X+I3SY8qsXtgNRRENxFW3BnABtL9BsR0U1dAzGtEWo=
 			</data>
 		</dict>
 		<key>sports.json</key>

@@ -64,5 +64,17 @@ class FavoritesViewModel{
     {
         teamsFavoriteArray[index].id ?? 0
     }
+    
+    func isFavoritesEmpty()-> Bool
+    {
+        if teamsFavoriteArray.isEmpty
+        {
+            return true
+        }
+        else
+        {
+            return false
+        }
+    }
  
 }

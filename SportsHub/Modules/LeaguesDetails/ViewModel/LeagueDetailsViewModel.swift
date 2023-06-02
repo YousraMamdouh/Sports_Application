@@ -22,17 +22,21 @@ class LeagueDetailsViewModel{
            APICaller.getUpcomingEvents(sportName: sportName, leagueId: leagueId)
            {
                result in
-               self.upcomingEvents = result.result!
+               self.upcomingEvents = result.result ?? []
                self.isLoadingTemp = self.isLoadingTemp + 1
                self.isLoading.value = self.isLoadingTemp
               // complitionHandler()
                
            }
+           
+   
        }
     
     func getUpComingEventsCount()-> Int
     {
-        upcomingEvents.count
+        
+        print("hashooof: \(upcomingEvents.count)")
+      return  upcomingEvents.count
     }
     
     func getUpComingEvent(index:Int)-> Event

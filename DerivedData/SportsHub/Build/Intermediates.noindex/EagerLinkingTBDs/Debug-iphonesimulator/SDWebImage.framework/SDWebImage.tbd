@@ -60,7 +60,6 @@ exports:
                        SDWebImagePrefetchToken, SDWebImagePrefetcher, SDWebImageProgressIndicator, 
                        SDWebImageTransition ]
     objc-ivars:      [ SDWebImagePrefetchToken._finishedCount, SDWebImagePrefetchToken._isAllFinished, 
-                       SDWebImagePrefetchToken._loadOperationsLock, SDWebImagePrefetchToken._loadOperationsLock_deprecated, 
-                       SDWebImagePrefetchToken._prefetchOperationsLock, SDWebImagePrefetchToken._prefetchOperationsLock_deprecated, 
+                       SDWebImagePrefetchToken._loadOperationsLock, SDWebImagePrefetchToken._prefetchOperationsLock, 
                        SDWebImagePrefetchToken._skippedCount, SDWebImagePrefetchToken._totalCount ]
 ...

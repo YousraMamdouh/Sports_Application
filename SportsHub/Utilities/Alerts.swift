@@ -22,6 +22,18 @@ class Alerts {
             topController.present(alertController, animated: true, completion: nil)
         }
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     static func makeComfirmationDeletionDialogue()
     {
         let alertController = UIAlertController(title: "Confirmation", message:"Are you sure you want to delete this item?", preferredStyle: .alert)
