@@ -161,8 +161,39 @@ func testGetLeaguesShouldPass()
             
         }
     }
-    
+ 
     func testGetTeamDetailsShouldFail()
+    {
+        let networkManager = MockAPICaller(shouldReturnError: true)
+        networkManager.getTeamDetails (url: "", complitionHandler: {
+            
+            (items,error)
+            in
+            XCTAssertNil(items,"Empty response")
+        })
+    }
+    // MARK: testing getting tennis players
+    func testGetTennisPlayersShouldPass()
+    {
+        let networkManager = MockAPICaller(shouldReturnError: false)
+        networkManager.getTennisPlayers(url: ""){
+            (items,error)
+            in
+            
+            guard let items = items else
+            {
+                XCTFail()
+                return
+            }
+            XCTAssertGreaterThan(items.count,0, "There is a response")
+            XCTAssertEqual(items[0].player_name, "A. Martin","Got response")
+            XCTAssertEqual(items.count,32,"Got response")
+            XCTAssertEqual(items[0].player_key,1056,"Got response")
+            
+        }
+    }
+ 
+    func testGetTennisPlayersShouldFail()
     {
         let networkManager = MockAPICaller(shouldReturnError: true)
         networkManager.getTeamDetails (url: "", complitionHandler: {

@@ -350,12 +350,12 @@ SWIFT_CLASS("_TtC9SportsHub23FavoritesViewController")
 
 SWIFT_CLASS("_TtC9SportsHub18HomeViewController")
 @interface HomeViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
+@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified sportsCollectionView;
+- (void)viewDidLoad;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UICollectionViewCell * _Nonnull)collectionView:(UICollectionView * _Nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (void)collectionView:(UICollectionView * _Nonnull)collectionView didSelectItemAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
-@property (nonatomic, weak) IBOutlet UICollectionView * _Null_unspecified sportsCollectionView;
-- (void)viewDidLoad;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end

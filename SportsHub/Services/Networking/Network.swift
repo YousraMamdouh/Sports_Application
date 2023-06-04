@@ -106,4 +106,12 @@ class Network {
 
       //  "https://apiv2.allsportsapi.com/football/?&met=Teams&teamId=96&APIkey=c9a13732377d308c4f8293321d1834a5901ba3166630bbf70bf11313e0b1d05f"
     }
+    
+    
+    func getTennisPlayers(leagueId:Int)->String
+    {
+        
+        return "\(BASE_URL)tennis/?&met=Players&APIkey=\(API_KEY)&leagueId=\(leagueId)"
+      //  "https://apiv2.allsportsapi.com/tennis/?&met=Players&APIkey=c9a13732377d308c4f8293321d1834a5901ba3166630bbf70bf11313e0b1d05f&leagueId=2833"
+    }
 }

@@ -144,4 +144,24 @@ extension MockAPICaller
     
         }
     }
+
+    // MARK: get tennis players
+    
+    func getTennisPlayers(url:String , complitionHandler: @escaping ([TennisPlayer]?,Error?)->Void)
+    {
+        if shouldReturnError
+        {
+            complitionHandler(nil,ResponseWithError.responseError)
+        }else
+        {
+            do {
+                let players:TennisPlayers = try loadJSON(filename: "TeamDetails", type: TennisPlayers.self)
+                complitionHandler(players.result,nil)
+            }catch
+            {
+                print("Error")
+            }
+    
+        }
+    }
 }

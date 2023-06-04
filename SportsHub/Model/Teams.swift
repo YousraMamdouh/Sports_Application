@@ -44,4 +44,13 @@ class Coach:Decodable{
     var coach_name:String?
 }
 
-
+class TennisPlayer:Decodable{
+    var player_key:Int?
+    var player_name:String?
+    var player_logo:String?
+    
+}
+class  TennisPlayers:Decodable{
+    var success:Int?
+    var result:[TennisPlayer]?
+}

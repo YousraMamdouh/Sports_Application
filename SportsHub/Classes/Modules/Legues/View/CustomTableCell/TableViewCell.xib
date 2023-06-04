@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell alpha="0.55000000000000004" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="112" id="KGk-i7-Jjw" customClass="TableViewCell" customModule="SportsHub" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="374" height="112"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVD-Tj-dWt">
+                        <rect key="frame" x="146" y="24" width="208" height="53"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.28051486609999998" green="0.74907410139999997" blue="0.74399965999999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d7X-aH-Ph2">
+                        <rect key="frame" x="20" y="10" width="92" height="92"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="92" id="UcU-pv-8hN"/>
+                            <constraint firstAttribute="width" constant="92" id="rOW-Oy-HFH"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="tintColor" name="lightBlue"/>
+                <constraints>
+                    <constraint firstItem="d7X-aH-Ph2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="BSP-u0-PRp"/>
+                    <constraint firstAttribute="bottom" secondItem="PVD-Tj-dWt" secondAttribute="bottom" constant="35" id="K8J-h3-Tjr"/>
+                    <constraint firstItem="d7X-aH-Ph2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="14" id="O06-zL-su2"/>
+                    <constraint firstAttribute="trailing" secondItem="PVD-Tj-dWt" secondAttribute="trailing" constant="20" symbolic="YES" id="RLb-u0-sJ8"/>
+                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="146" id="d37-5T-Y20"/>
+                    <constraint firstItem="PVD-Tj-dWt" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="24" id="iyN-7Q-OBG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <inset key="separatorInset" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="backView" destination="H2p-sc-9uM" id="Puj-Jx-TFU"/>
+                <outlet property="leagueImage" destination="d7X-aH-Ph2" id="nOZ-h5-dnk"/>
+                <outlet property="leagueLabel" destination="PVD-Tj-dWt" id="cnT-ZI-xjS"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="12.67605633802817"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="lightBlue">
+            <color red="0.28299999237060547" green="0.74900001287460327" blue="0.74400001764297485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

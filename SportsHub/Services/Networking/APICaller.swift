@@ -182,6 +182,39 @@ class APICaller {
         
                   task.resume()
     }
+    static func getTennisPlayers(leagueId:Int,complitionHandler: @escaping (TennisPlayers)-> Void)
+    {
+        let urlString:String = Network.shared.getTennisPlayers(leagueId: leagueId)
+        guard let url = URL(string:urlString ) else
+        {
+            return
+        }
+        let req = URLRequest(url: url)
+        
+        let session = URLSession(configuration: .default)
+                  let task = session.dataTask(with: req){ (data , respone, error) in
+        
+                      guard let data = data else
+                      {
+                        return
+                      }
+                      do{
+                          let result = try JSONDecoder().decode(TennisPlayers.self, from: data)
+                          //print(result.result?[3].league_name ?? "No Title")
+                        //  print("bndawar 3la:\(result.result?[0].players?[0].player_name)")
+                          complitionHandler(result)
+                          
+                      }
+                      catch let error{
+        
+                          print(error.localizedDescription)
+                        //  complitionHandler(nil)
+                          }
+        
+                      }
+        
+                  task.resume()
+    }
     
     
 }

@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		DmFqIabeyxHMo4niAcIiHR9l1Ok=
+		vUz+Kq5L+JFprJDmqLilGyJ83DY=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		vpwpTZUVyVVr1t3wfEFncr7mlwM=
+		yZKzUl/u9StC6PKW0Xjdpju5lrQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/HomeViewController.nib</key>
 		<data>
@@ -62,15 +62,15 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/jQx-7q-nH2-view-KaX-yg-JCD.nib</key>
 		<data>
-		/QLZjt2prKozsSLTeaHRrFqtXVI=
+		cjy+X/SI/tWKwsGwfnp7MhFCdW8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/k8r-N7-CHA-view-oMG-bc-mVB.nib</key>
 		<data>
-		UpwDvgl6B0ynSM4Ytix3uuoxC/c=
+		517oTe1s1F9flglxHMYyg1ziZgk=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
 		<data>
-		YqaoSqxPXjwyl4Ai7jrLo/ubNqM=
+		Qr6MxVaHplMzq8twgP3uN99PXe8=
 		</data>
 		<key>Frameworks/Lottie.framework/Info.plist</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>PlayerCell.nib</key>
 		<data>
-		uwp3bCq4jgJ8x/ylN/ALxO9VzzU=
+		zoo1sExEklrUUsdyL7dYjyakYf8=
 		</data>
 		<key>PlugIns/SportsHubTests.xctest/Info.plist</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>PlugIns/SportsHubTests.xctest/SportsHubTests</key>
 		<data>
-		n1v8yQ8ivNd0ZxbF1UWYvHEnmfo=
+		eh3BaFksM9h1xlAYTN4+N4uhb9c=
 		</data>
 		<key>PlugIns/SportsHubTests.xctest/UpComingEvents.json</key>
 		<data>
@@ -266,7 +266,7 @@
 		</data>
 		<key>TableViewCell.nib</key>
 		<data>
-		Owhte0Vktw+Pk47BaX217zyofaA=
+		TsfmaqIHkUWj7ezaFR/AnFjueos=
 		</data>
 		<key>UpComingEventsCell.nib</key>
 		<data>
@@ -305,7 +305,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KlrnWCDCXMO2wixNuWc/YSutk53BJIQdyq0FmeGun4I=
+			9gvrgNOaJeHpDAzBWSdTmFzXyPxvZU3mitAf2Cwb6Aw=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -333,7 +333,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			d1rNRGo2j9rST4KxSOALnoAsHlNtLp2jB6huGbZJXQg=
+			orlBwPuzBjGbL2ltn+lf6So6j3SG8JIRyY8s32NtCbY=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/HomeViewController.nib</key>
@@ -389,21 +389,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jACxq6YTlj08L+OB0Uw8/y8DLA7e5VDudl6l9lF3VUU=
+			puXYY08K8YeH8IYBo9um4wHmF+tKuG2oM8n7NC6rhLk=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/k8r-N7-CHA-view-oMG-bc-mVB.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZYRwFvapDTXI+NKxmmFdf6ZybQUlklIKR1lcv8WXnXk=
+			LC6F2sqspvcUpQH4LIgOJKwXY+qdfCDfzyMWDyqROi8=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/mwF-UC-8uc-view-rY3-iC-QmQ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ms0DB6M8D55Z7BCSUwzCzJqw5a00EHqudJnKeIVhRwQ=
+			2mREglgUoTdLq6LQtLeE7CpBfp/nQbWmEwtMtTtxbcg=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/Info.plist</key>
@@ -662,7 +662,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3R1dQO435/LbUt+IVLokSF8V0Xl103JK8DsA0cnbu9Q=
+			e/4IIagI3Bpu2bwF0NZOOP+ak67aS2rxu+LkdcpRw6I=
 			</data>
 		</dict>
 		<key>PlugIns/SportsHubTests.xctest/Info.plist</key>
@@ -683,7 +683,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2ZgTqHdBU3yog3Zif5hVtzjZ/WrREpNoHDcfNG3PbrQ=
+			+S9qrAXAr+JYX20+xj9MyEC2ZAK7Z2zbm/37Oaa7Ie8=
 			</data>
 		</dict>
 		<key>PlugIns/SportsHubTests.xctest/UpComingEvents.json</key>
@@ -732,7 +732,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hcisormlMhU5MjzQ0gOiF1a6Z9cXWtyBdjXZZj/nw30=
+			UTS+rTOvOnKp7/mDlS/Ba11omLE+y89HQRuVCkMyqnw=
 			</data>
 		</dict>
 		<key>UpComingEventsCell.nib</key>

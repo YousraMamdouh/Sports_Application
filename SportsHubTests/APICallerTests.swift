@@ -121,4 +121,23 @@ final class APICallerTests: XCTestCase {
         }
         waitForExpectations(timeout: 6, handler: nil)
     }
+    
+    func testGetTennisTeams()
+    {
+        let myExpectation = expectation(description: "waiting for the API")
+        APICaller.getTennisPlayers(leagueId: 2833)
+        {
+            items in
+            guard let items = items.result else{
+                XCTFail()
+                myExpectation.fulfill()
+                return
+            }
+            XCTAssertGreaterThan(items.count, 0, "Array is Empty")
+            XCTAssertGreaterThan(items.count,1, "Data didn't match ")
+          
+            myExpectation.fulfill()
+        }
+        waitForExpectations(timeout: 6, handler: nil)
+    }
 }
