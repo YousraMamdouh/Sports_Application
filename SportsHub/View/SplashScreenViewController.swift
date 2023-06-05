@@ -20,7 +20,9 @@ class SplashScreenViewController: UIViewController {
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop
         animationView.play()
-        
+        let example = "https://4a798eacca0d39cc2048369ad2025b47:shpat_df5dd0b91df587be08c73286fa 6e0267@mad-sv.myshopify.com/admin/api/2022-01/collects.json"
+        let nono = "https://{apikey}:{password}@{hostname}/admin/api/{version}/{resource}.json"
+      //  let url = "https://3ec4212c45d4957fa3a49ab23d83ff1b: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@mad-sv.myshopify.com/admin/api//2022-01/collects.json"
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
             self.performSegue(withIdentifier: "navigateToHome", sender: nil)
         }

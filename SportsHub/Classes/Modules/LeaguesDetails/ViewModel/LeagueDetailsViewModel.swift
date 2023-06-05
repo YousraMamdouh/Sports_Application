@@ -36,7 +36,7 @@ class LeagueDetailsViewModel{
     func getUpComingEventsCount()-> Int
     {
         
-        print("hashooof: \(upcomingEvents.count)")
+
       return  upcomingEvents.count
     }
     

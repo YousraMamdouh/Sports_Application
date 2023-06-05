@@ -35,11 +35,21 @@ class LatestResultTableCell: UITableViewCell {
             secondTeamImage.sd_setImage(with: URL(string: awayTeamImage ), placeholderImage: UIImage(named: "Placeholder.png"))
                }
 
-     firstTeamName.text = event.event_home_team
-     secondTeamName.text = event.event_away_team
-      date.text = event.event_date
-    time.text = event.event_time
-     score.text = event.event_final_result
+       firstTeamName.text = event.event_home_team
+       secondTeamName.text = event.event_away_team
+        date.text = event.event_date
+        score.text = event.event_final_result
+        time.text = event.event_time
+        
+        if(gameName=="cricket")
+        {
+            date.text = event.event_date_start
+            let team1 =  event.event_home_final_result ?? ""
+            let team2 =  event.event_away_final_result ?? ""
+            score.text = "Team 1: \(team1)\n Team 2: \(team2)"
+        }
+
+   
         if(gameName == "tennis")
         {
          firstTeamName.text = event.event_first_player

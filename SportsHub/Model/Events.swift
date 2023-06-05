@@ -21,7 +21,9 @@ class Event:Decodable {
     //Cricket
     var event_away_team_logo:String?
     var event_home_team_logo:String?
-    var event_end_date:String?
+    var event_date_start:String?
+    var event_home_final_result:String?
+    var event_away_final_result:String?
     
     // tennis
     var event_first_player:String?
