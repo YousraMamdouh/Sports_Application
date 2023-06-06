@@ -3546,4 +3546,5 @@ exports:
                        _TtC6Lottie21SolidCompositionLayer, _TtC6Lottie23CompatibleAnimationView, 
                        _TtC6Lottie26CompatibleAnimationKeypath, _TtC6Lottie27AnimationCompletionDelegate, 
                        _TtC6Lottie9TextLayer ]
+    weak-symbols:    [ ___llvm_profile_filename, ___llvm_profile_raw_version, _lprofDirMode ]
 ...

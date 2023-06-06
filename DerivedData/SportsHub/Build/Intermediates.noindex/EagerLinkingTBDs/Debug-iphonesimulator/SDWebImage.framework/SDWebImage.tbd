@@ -62,4 +62,5 @@ exports:
     objc-ivars:      [ SDWebImagePrefetchToken._finishedCount, SDWebImagePrefetchToken._isAllFinished, 
                        SDWebImagePrefetchToken._loadOperationsLock, SDWebImagePrefetchToken._prefetchOperationsLock, 
                        SDWebImagePrefetchToken._skippedCount, SDWebImagePrefetchToken._totalCount ]
+    weak-symbols:    [ ___llvm_profile_filename, ___llvm_profile_raw_version, _lprofDirMode ]
 ...

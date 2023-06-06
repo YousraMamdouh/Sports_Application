@@ -6,10 +6,10 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>E05E7817-B3D1-4B43-AD68-61902D8BC358</key>
+		<key>16C25CEC-F161-49BF-9957-3931E9006C7E</key>
 		<dict>
 			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>8B9CFAC5-DE54-47B9-B731-25B1D6B895C5</string>
+			<string>46730D21-56F7-46DC-8A43-F4E170D41F6A</string>
 			<key>auxiliaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
@@ -22,51 +22,10 @@
 			<key>domainType</key>
 			<string>com.apple.dt.unit.cocoaUnitTest</string>
 			<key>fileName</key>
-			<string>Test-SportsHub-2023.06.05_10-52-25--0700.xcresult</string>
+			<string>Test-SportsHub-2023.06.05_23-20-40--0700.xcresult</string>
 			<key>hasAuxiliaryLog</key>
 			<true/>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>SportsHub project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>SportsHub</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Test SportsHub</string>
-			<key>timeStartedRecording</key>
-			<real>707680345.19926298</real>
-			<key>timeStoppedRecording</key>
-			<real>0.0</real>
-			<key>title</key>
-			<string>Test SportsHub</string>
-			<key>uniqueIdentifier</key>
-			<string>E05E7817-B3D1-4B43-AD68-61902D8BC358</string>
-		</dict>
-		<key>FC1E3FBB-32FB-47E4-9D54-B23032AE7B5C</key>
-		<dict>
-			<key>auxiliaryLogUniqueIdentifier</key>
-			<string>EAD5BE7B-88E8-4267-815B-1A815602C26E</string>
-			<key>auxiliaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>className</key>
-			<string>IDESchemeActionsInvocationRecord</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>com.apple.dt.unit.cocoaUnitTest</string>
-			<key>fileName</key>
-			<string>Test-SportsHub-2023.06.04_09-37-12--0700.xcresult</string>
-			<key>hasAuxiliaryLog</key>
+			<key>hasCoverageData</key>
 			<true/>
 			<key>hasPrimaryLog</key>
 			<true/>
@@ -84,13 +43,13 @@
 			<key>signature</key>
 			<string>Test SportsHub</string>
 			<key>timeStartedRecording</key>
-			<real>707589432.18835604</real>
+			<real>707725240.06789196</real>
 			<key>timeStoppedRecording</key>
 			<real>0.0</real>
 			<key>title</key>
 			<string>Test SportsHub</string>
 			<key>uniqueIdentifier</key>
-			<string>FC1E3FBB-32FB-47E4-9D54-B23032AE7B5C</string>
+			<string>16C25CEC-F161-49BF-9957-3931E9006C7E</string>
 		</dict>
 	</dict>
 </dict>

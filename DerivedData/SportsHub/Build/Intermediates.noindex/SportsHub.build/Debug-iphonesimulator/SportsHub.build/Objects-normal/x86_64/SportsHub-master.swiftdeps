@@ -1,7 +1,7 @@
 version: "Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)"
-options: "893ebdf3eb00be06c7ef7144d9cc5dbc66fb472f7376193bb2b85972ced98525"
-build_start_time: [1685993975, 410523000]
-build_end_time: [1685993977, 787005000]
+options: "8e0c9b16863039e39771ac1de0362ba802a518c556332694f52e25db59c13b68"
+build_start_time: [1686032443, 288895000]
+build_end_time: [1686032447, 516988000]
 inputs:
   ? "/Users/yousramamdouh/Desktop/_IOS/SportsHub/DerivedData/SportsHub/Build/Intermediates.noindex/SportsHub.build/Debug-iphonesimulator/SportsHub.build/DerivedSources/CoreDataGenerated/SportsHub/FavoriteTeams+CoreDataClass.swift"
   : [1685718110, 375043124]
@@ -39,6 +39,6 @@ inputs:
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Model/Teams.swift": [1685894385, 52568390]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/SceneDelegate.swift": [1684606675, 342079750]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Database/TeamsCoreData.swift": [1685616571, 607686890]
-  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift": [1685894385, 115752585]
-  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/NetworkHandeler.swift": [1685993974, 649644627]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/APICaller.swift": [1686032440, 37307958]
+  "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/Services/Networking/Handler.swift": [1686032440, 59987201]
   "/Users/yousramamdouh/Desktop/_IOS/SportsHub/SportsHub/View/SplashScreenViewController.swift": [1685953098, 829097318]

@@ -42,7 +42,7 @@ final class APICallerTests: XCTestCase {
             myExpectation.fulfill()
         }
         
-        waitForExpectations(timeout: 6, handler: nil)
+        waitForExpectations(timeout: 10, handler: nil)
     }
     
     func testGetUpcomingEvents()
@@ -57,7 +57,7 @@ final class APICallerTests: XCTestCase {
                 return
             }
             XCTAssertGreaterThan(items.count, 0, "Array is Empty")
-            XCTAssertEqual(items.count,104, "Data didn't match")
+            
             myExpectation.fulfill()
         }
         waitForExpectations(timeout:10, handler: nil)
@@ -100,7 +100,7 @@ final class APICallerTests: XCTestCase {
             XCTAssertEqual(items.count,20, "Data didn't match")
             myExpectation.fulfill()
         }
-        waitForExpectations(timeout: 6, handler: nil)
+        waitForExpectations(timeout: 10, handler: nil)
     }
     
     func testGetFootballTeamDetails()

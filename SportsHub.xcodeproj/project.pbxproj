@@ -10,6 +10,8 @@
 		1375486C540DABC416F0B583 /* Pods_SportsHubTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C620581756B5F69D1971A152 /* Pods_SportsHubTests.framework */; };
 		8BBEE2AA14E0EB59AE55F536 /* Pods_SportsHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 750B314DBFE2E56342590DB5 /* Pods_SportsHub.framework */; };
 		BC1268512A1FD6D9003134AE /* TeamDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1268502A1FD6D9003134AE /* TeamDetailsViewModel.swift */; };
+		BC281C462A2F02790027D36D /* SportsHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC281C452A2F02790027D36D /* SportsHubUITests.swift */; };
+		BC281C482A2F02790027D36D /* SportsHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC281C472A2F02790027D36D /* SportsHubUITestsLaunchTests.swift */; };
 		BC2C75FE2A1D0B5800996BEB /* UpComingEventsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2C75FC2A1D0B5800996BEB /* UpComingEventsCell.swift */; };
 		BC2C75FF2A1D0B5800996BEB /* UpComingEventsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC2C75FD2A1D0B5800996BEB /* UpComingEventsCell.xib */; };
 		BC31825A2A28D9B0007C74D8 /* APICallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3182592A28D9B0007C74D8 /* APICallerTests.swift */; };
@@ -27,7 +29,7 @@
 		BC700F5E2A1A43FC002AD341 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC700F5C2A1A43FC002AD341 /* TableViewCell.swift */; };
 		BC700F5F2A1A43FC002AD341 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC700F5D2A1A43FC002AD341 /* TableViewCell.xib */; };
 		BC7120A42A1D505C0046CDF9 /* LeaguesDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7120A32A1D505C0046CDF9 /* LeaguesDetailsViewController.swift */; };
-		BC71F4FB2A1B717D001BB047 /* NetworkHandeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71F4FA2A1B717D001BB047 /* NetworkHandeler.swift */; };
+		BC71F4FB2A1B717D001BB047 /* Handler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC71F4FA2A1B717D001BB047 /* Handler.swift */; };
 		BC73FC062A24E1E000045FFC /* TeamsCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73FC052A24E1E000045FFC /* TeamsCoreData.swift */; };
 		BC73FC092A24E6F500045FFC /* FavoritesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73FC082A24E6F500045FFC /* FavoritesViewModel.swift */; };
 		BC73FC0E2A24F7BD00045FFC /* Favorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC73FC0D2A24F7BD00045FFC /* Favorites.swift */; };
@@ -62,6 +64,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		BC281C492A2F02790027D36D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEA55752A19465300827FBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEA557C2A19465300827FBD;
+			remoteInfo = SportsHub;
+		};
 		BCEA55972A19465600827FBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BCEA55752A19465300827FBD /* Project object */;
@@ -79,6 +88,9 @@
 		750B314DBFE2E56342590DB5 /* Pods_SportsHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SportsHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9CBFB24831ED55C371616B3 /* Pods-SportsHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportsHub.release.xcconfig"; path = "Target Support Files/Pods-SportsHub/Pods-SportsHub.release.xcconfig"; sourceTree = "<group>"; };
 		BC1268502A1FD6D9003134AE /* TeamDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailsViewModel.swift; sourceTree = "<group>"; };
+		BC281C432A2F02790027D36D /* SportsHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportsHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC281C452A2F02790027D36D /* SportsHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsHubUITests.swift; sourceTree = "<group>"; };
+		BC281C472A2F02790027D36D /* SportsHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BC2C75FC2A1D0B5800996BEB /* UpComingEventsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingEventsCell.swift; sourceTree = "<group>"; };
 		BC2C75FD2A1D0B5800996BEB /* UpComingEventsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UpComingEventsCell.xib; sourceTree = "<group>"; };
 		BC3182592A28D9B0007C74D8 /* APICallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICallerTests.swift; sourceTree = "<group>"; };
@@ -96,7 +108,7 @@
 		BC700F5C2A1A43FC002AD341 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		BC700F5D2A1A43FC002AD341 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		BC7120A32A1D505C0046CDF9 /* LeaguesDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaguesDetailsViewController.swift; sourceTree = "<group>"; };
-		BC71F4FA2A1B717D001BB047 /* NetworkHandeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandeler.swift; sourceTree = "<group>"; };
+		BC71F4FA2A1B717D001BB047 /* Handler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Handler.swift; sourceTree = "<group>"; };
 		BC73FC052A24E1E000045FFC /* TeamsCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamsCoreData.swift; sourceTree = "<group>"; };
 		BC73FC082A24E6F500045FFC /* FavoritesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewModel.swift; sourceTree = "<group>"; };
 		BC73FC0D2A24F7BD00045FFC /* Favorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorites.swift; sourceTree = "<group>"; };
@@ -141,6 +153,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BC281C402A2F02790027D36D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCEA557A2A19465300827FBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -168,6 +187,15 @@
 				C620581756B5F69D1971A152 /* Pods_SportsHubTests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC281C442A2F02790027D36D /* SportsHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BC281C452A2F02790027D36D /* SportsHubUITests.swift */,
+				BC281C472A2F02790027D36D /* SportsHubUITestsLaunchTests.swift */,
+			);
+			path = SportsHubUITests;
 			sourceTree = "<group>";
 		};
 		BC700F4E2A1A3BC4002AD341 /* Modules */ = {
@@ -262,7 +290,7 @@
 		BC700F612A1A53A3002AD341 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				BC71F4FA2A1B717D001BB047 /* NetworkHandeler.swift */,
+				BC71F4FA2A1B717D001BB047 /* Handler.swift */,
 				BC6FB23B2A1BCBF000068141 /* APICaller.swift */,
 			);
 			path = Networking;
@@ -410,6 +438,7 @@
 			children = (
 				BCEA557F2A19465300827FBD /* SportsHub */,
 				BCEA55992A19465600827FBD /* SportsHubTests */,
+				BC281C442A2F02790027D36D /* SportsHubUITests */,
 				BCEA557E2A19465300827FBD /* Products */,
 				DE507D6479D8478B8F2EE68A /* Pods */,
 				13280A56E356FD28BA67538D /* Frameworks */,
@@ -421,6 +450,7 @@
 			children = (
 				BCEA557D2A19465300827FBD /* SportsHub.app */,
 				BCEA55962A19465600827FBD /* SportsHubTests.xctest */,
+				BC281C432A2F02790027D36D /* SportsHubUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -507,6 +537,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BC281C422A2F02790027D36D /* SportsHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC281C4D2A2F02790027D36D /* Build configuration list for PBXNativeTarget "SportsHubUITests" */;
+			buildPhases = (
+				BC281C3F2A2F02790027D36D /* Sources */,
+				BC281C402A2F02790027D36D /* Frameworks */,
+				BC281C412A2F02790027D36D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC281C4A2A2F02790027D36D /* PBXTargetDependency */,
+			);
+			name = SportsHubUITests;
+			productName = SportsHubUITests;
+			productReference = BC281C432A2F02790027D36D /* SportsHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BCEA557C2A19465300827FBD /* SportsHub */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BCEA55AA2A19465600827FBD /* Build configuration list for PBXNativeTarget "SportsHub" */;
@@ -555,6 +603,10 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					BC281C422A2F02790027D36D = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = BCEA557C2A19465300827FBD;
+					};
 					BCEA557C2A19465300827FBD = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -579,11 +631,19 @@
 			targets = (
 				BCEA557C2A19465300827FBD /* SportsHub */,
 				BCEA55952A19465600827FBD /* SportsHubTests */,
+				BC281C422A2F02790027D36D /* SportsHubUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BC281C412A2F02790027D36D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCEA557B2A19465300827FBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -678,6 +738,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BC281C3F2A2F02790027D36D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC281C462A2F02790027D36D /* SportsHubUITests.swift in Sources */,
+				BC281C482A2F02790027D36D /* SportsHubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BCEA55792A19465300827FBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -702,7 +771,7 @@
 				BCCE4B162A19D808007AD9B0 /* FavoritesViewController.swift in Sources */,
 				BCF3E2A62A23B11800DF3075 /* LeagueViewModel.swift in Sources */,
 				BC4795042A27757700F10F46 /* Indicator.swift in Sources */,
-				BC71F4FB2A1B717D001BB047 /* NetworkHandeler.swift in Sources */,
+				BC71F4FB2A1B717D001BB047 /* Handler.swift in Sources */,
 				BC2C75FE2A1D0B5800996BEB /* UpComingEventsCell.swift in Sources */,
 				BC82F1BF2A1E362B0068FCAA /* LatestResultTableCell.swift in Sources */,
 				BC82F1C22A1E3EAE0068FCAA /* TeamsCell.swift in Sources */,
@@ -732,6 +801,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		BC281C4A2A2F02790027D36D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEA557C2A19465300827FBD /* SportsHub */;
+			targetProxy = BC281C492A2F02790027D36D /* PBXContainerItemProxy */;
+		};
 		BCEA55982A19465600827FBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BCEA557C2A19465300827FBD /* SportsHub */;
@@ -759,6 +833,40 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BC281C4B2A2F02790027D36D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43F2S25P4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.SportsHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsHub;
+			};
+			name = Debug;
+		};
+		BC281C4C2A2F02790027D36D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U43F2S25P4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = student.SportsHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SportsHub;
+			};
+			name = Release;
+		};
 		BCEA55A82A19465600827FBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -976,6 +1084,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BC281C4D2A2F02790027D36D /* Build configuration list for PBXNativeTarget "SportsHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC281C4B2A2F02790027D36D /* Debug */,
+				BC281C4C2A2F02790027D36D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BCEA55782A19465300827FBD /* Build configuration list for PBXProject "SportsHub" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -78,7 +78,7 @@
 		</data>
 		<key>Frameworks/Lottie.framework/Lottie</key>
 		<data>
-		Ao64u1y2kLYlsvknoNu8WB0CZv0=
+		LKF176keoHbvCW6Mit0OPrRh72Y=
 		</data>
 		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Frameworks/Reachability.framework/Reachability</key>
 		<data>
-		PXwlec+c6h6lECN/Ym0XNmdvgWk=
+		Wr8D01HJsq5YHo6V/a9A0oitgqc=
 		</data>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Frameworks/SDWebImage.framework/SDWebImage</key>
 		<data>
-		4JygIvui3mV/qLTCX66ctsz5gXQ=
+		LtEvmiwvmosq24paUpQiiNT58VA=
 		</data>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>PlugIns/SportsHubTests.xctest/SportsHubTests</key>
 		<data>
-		P5VSnsME14dd6LtHo3UyQtkwDeM=
+		LSMTJV+CVJS8wE1u9hgHiJyUDGU=
 		</data>
 		<key>PlugIns/SportsHubTests.xctest/UpComingEvents.json</key>
 		<data>
@@ -417,7 +417,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i/2QZQypND5s6c0pcq7ImHJOzJOFs8RnMZiFC1N00tM=
+			NpJYJCMZ40M1wQqdySLa2HIqiSXYFmTslj1hcbqX3eI=
 			</data>
 		</dict>
 		<key>Frameworks/Lottie.framework/_CodeSignature/CodeResources</key>
@@ -438,7 +438,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iboGR2bkISx3eyVgTipAIKe4Nw4rThNaACMmgJCu1bk=
+			mz9JMGEOkmhEynvYDHaFfKuB4Uha+pKPLnFofCFm8UU=
 			</data>
 		</dict>
 		<key>Frameworks/Reachability.framework/_CodeSignature/CodeResources</key>
@@ -459,7 +459,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rRecdA45Fhz6A1SjKY0ASHRLTFfEI75nwoWErDAl64s=
+			mA7mjH1aaf1VUcKZ1q5Dryx0Hnsh3AxD/djy5cgwh9w=
 			</data>
 		</dict>
 		<key>Frameworks/SDWebImage.framework/_CodeSignature/CodeResources</key>
@@ -683,7 +683,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OFJY5VwuyAt4kQzFLBrasult5cbgOsjoo0VzddPn2nI=
+			hHISQtOHUeWeK+ExGB/1B/EnCUVrPjB0THsOQ5H7BU4=
 			</data>
 		</dict>
 		<key>PlugIns/SportsHubTests.xctest/UpComingEvents.json</key>
